@@ -1,0 +1,18 @@
+body{
+    margin:0 auto;
+}
+.page-background{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/home-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-color: black;
+    position:absolute;
+}
+.page-content-panel{
+    width: 100vw;
+    height: 78vh;
+    overflow-y: auto;
+}

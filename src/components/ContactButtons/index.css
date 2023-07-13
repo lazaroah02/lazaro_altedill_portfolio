@@ -7,6 +7,12 @@
     width: 200px;
     height: auto;
     background-color:transparent;
+
+    position:fixed;
+    bottom: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-button{
@@ -27,5 +33,10 @@
 @media (max-width: 400px){
     .contact-button p{
         font-size:10px
+    }
+    .contact-buttons-container{
+        bottom: 30px;
+        right: 30px;
+        justify-content: flex-end;
     }
 }

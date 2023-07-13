@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Jost";
+    src: url('../../assets//fonts/Jost-VariableFont_wght.woff2');
+}
 .navbar{
     width: 100vw;
     height: 50px;
@@ -15,6 +19,7 @@
     cursor: pointer;
     color: #fff;
     font-size:20px;
+    font-family: 'Jost';
 }
 .navbar-item a:hover{
     color:#78D9FC;

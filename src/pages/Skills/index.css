@@ -1,0 +1,26 @@
+.skills-content-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:5px;
+    align-items: center ;
+    width: 80%;
+    margin:0 auto;
+}
+
+.skills-content-container div{
+    display:flex;
+    justify-content: center;
+}
+
+.skills-content-container img{
+    width: 145px;
+    border-radius: 10px;
+}
+
+/*Mobile*/
+@media (max-width: 1000px){
+    .skills-content-container{
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        width: 100%;
+    }
+}
