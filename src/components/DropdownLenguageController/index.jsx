@@ -1,13 +1,14 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import DownIcon from "../../assets/down-icon.svg";
 import UpIcon from "../../assets/up-icon.svg";
 import EsFlag from "../../assets/es-flag.png";
 import EnFlag from "../../assets/en-flag.png";
+import LanguageContext from '../../context/lenguageContext'
 import "./index.css";
 
 function DropdownLenguageController() {
   const [showDropdown, setShowDropdown] = useState(false);
-  const [actualIdioma, setActualIdioma] = useState("es");
+  const {lang, setLanguage} = useContext(LanguageContext)
   return (
     <div className="idioma-dropdown">
       <div
@@ -18,7 +19,7 @@ function DropdownLenguageController() {
         <img
           className="flag-image"
           alt="lenguage"
-          src={actualIdioma === "es" ? EsFlag : EnFlag}
+          src={lang === "es" ? EsFlag : EnFlag}
         />
       </div>
       {showDropdown ? (
@@ -27,7 +28,7 @@ function DropdownLenguageController() {
             className="dropdown-item"
             onClick={() => {
               {
-                setActualIdioma("es");
+                setLanguage("es");
                 setShowDropdown(false);
               }
             }}
@@ -38,7 +39,7 @@ function DropdownLenguageController() {
           <div
             className="dropdown-item"
             onClick={() => {
-              setActualIdioma("en");
+              setLanguage("en");
               setShowDropdown(false);
             }}
           >

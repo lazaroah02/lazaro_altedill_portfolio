@@ -1,8 +1,12 @@
 import NavBar from '../../components/NavBar'
 import ContactButtons from '../../components/ContactButtons';
+import LanguageContext from '../../context/lenguageContext';
+import { useContext } from 'react';
+import {homeContent} from '../../language-content-controller'
 import './index.css'
 
 function Home() {
+    const {lang} = useContext(LanguageContext)
     return ( 
         <main className = "home-page-background">
             <div className = "home-page">
@@ -16,7 +20,7 @@ function Home() {
                         </div>
                         <p> <span>•</span> Front end developer</p>
                     </div>
-                    <div className = "homepage-frase">{'< '}Build the future with your code /{'>'}</div>
+                    <div className = "homepage-frase">{homeContent[lang].frase}</div>
                 </section>
                 <div className = "homepage-contact-buttons-container">
                     <ContactButtons/>
