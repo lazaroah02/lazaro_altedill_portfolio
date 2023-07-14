@@ -1,6 +1,6 @@
 import NavBar from '../../components/NavBar'
 import ContactButtons from '../../components/ContactButtons'
-import { SKILLS } from '../../assets/skills/skills.js'
+import { SKILLS } from '../../skills.js'
 import './index.css'
 import '../general-pages-styles.css'
 

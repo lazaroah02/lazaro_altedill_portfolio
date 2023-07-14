@@ -2,51 +2,51 @@ export const SKILLS = [
     {
         id:1,
         name:'Javascript',
-        url:'/src/assets/skills/javascript.svg'
+        url:'skills/javascript.svg'
     },
     {
         id:2,
         name:'React',
-        url:'/src/assets/skills/react.svg'
+        url:'/skills/react.svg'
     },
     {
         id:3,
         name:'Vue js',
-        url:'/src/assets/skills/vue.svg'
+        url:'skills/vue.svg'
     },
     {
         id:4,
         name:'HTML',
-        url:'/src/assets/skills/html.svg'
+        url:'skills/html.svg'
     },
     {
         id:5,
         name:'CSS',
-        url:'/src/assets/skills/css.svg'
+        url:'skills/css.svg'
     },
     {
         id:6,
         name:'Python',
-        url:'/src/assets/skills/python.svg'
+        url:'skills/python.svg'
     },
     {
         id:7,
         name:'Django',
-        url:'/src/assets/skills/django.svg'
+        url:'skills/django.svg'
     },
     {
         id:8,
         name:'Git/Github',
-        url:'/src/assets/skills/git-github.svg'
+        url:'skills/git-github.svg'
     },
     {
         id:9,
         name:'Docker',
-        url:'/src/assets/skills/docker.svg'
+        url:'skills/docker.svg'
     },
     {
         id:10,
         name:'SQL',
-        url:'/src/assets/skills/sql.png'
+        url:'skills/sql.png'
     },
 ]
