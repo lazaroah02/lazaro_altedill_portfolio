@@ -6,11 +6,13 @@ import './index.css'
 function Projects() {
     return ( 
         <div className = "page-background">
-            <NavBar/>
-            <section className = "projects-content-container page-content-panel">
-                Projects
-            </section>
-            <ContactButtons/>
+            <div className = "page-background-blur-cover">
+                <NavBar/>
+                <section className = "projects-content-container page-content-panel">
+                    Projects
+                </section>
+                <ContactButtons/>
+            </div>
         </div>
      );
 }

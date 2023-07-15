@@ -7,15 +7,17 @@ import '../general-pages-styles.css'
 function Skills() {
     return ( 
         <div className = "page-background">
-            <NavBar/>
-            <section className = "page-content-panel skills-content-container">
-                {SKILLS.map(skill => 
-                    <div onClick={() => setRotedCard(!rotedCard)}>
-                        <img alt = {skill.name} src = {skill.url}/>
-                    </div>
-                )}
-            </section>
-            <ContactButtons/>
+            <div className = "page-background-blur-cover">
+                <NavBar/>
+                <section className = "page-content-panel skills-content-container">
+                    {SKILLS.map(skill => 
+                        <div onClick={() => setRotedCard(!rotedCard)}>
+                            <img alt = {skill.name} src = {skill.url}/>
+                        </div>
+                    )}
+                </section>
+                <ContactButtons/>
+            </div>
         </div>
      );
 }
