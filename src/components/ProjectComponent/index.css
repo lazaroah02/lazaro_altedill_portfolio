@@ -16,6 +16,8 @@
     width: 90%;
     height: 400px;
     margin: 0 auto;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 .project-image{
     width: 60%;
@@ -66,12 +68,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Jost';
 }
 
 /*Mobile and Tablet*/
-@media (max-width: 900px){
+@media (max-width: 1000px){
     .project{
         flex-direction: column;
+        height: auto;
+    }
+    .project-image{
+        width: 100%;
+        height: auto;
     }
     .project-description{
         width: 100%;

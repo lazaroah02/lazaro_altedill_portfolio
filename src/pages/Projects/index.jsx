@@ -17,8 +17,7 @@ function Projects() {
                     <div className = "projects-category">
                         <div>{lang === 'es'?'Profesionales':'Professionals'}</div>
                     </div>
-                    <br/>    
-                    <br/> 
+                     
                     <ProjectComponent 
                         projectName={projects.krolNails.name}
                         images={projects.krolNails.images}
@@ -26,8 +25,7 @@ function Projects() {
                         projectDescription={projects.krolNails.description[lang]}
                         tecnologies={projects.krolNails.tecnologies}
                         />
-                    <br/>    
-                    <br/>    
+                        
                     <ProjectComponent 
                         projectName={projects.gummawaka.name}
                         images={projects.gummawaka.images}
@@ -35,13 +33,11 @@ function Projects() {
                         projectDescription={projects.gummawaka.description[lang]}
                         tecnologies={projects.gummawaka.tecnologies}
                         />
-                    <br/>    
-                    <br/>
+                    
                     <div className = "projects-category">
                         <div>{lang === 'es'?'Personales':'Personals'}</div>
                     </div>
-                    <br/>    
-                    <br/> 
+                     
                     <ProjectComponent 
                         projectName={projects.bestore.name}
                         images={projects.bestore.images}
@@ -49,8 +45,7 @@ function Projects() {
                         projectDescription={projects.bestore.description[lang]}
                         tecnologies={projects.bestore.tecnologies}
                         />
-                    <br/>    
-                    <br/>    
+                        
                     <ProjectComponent 
                         projectName={projects.chatcat.name}
                         images={projects.chatcat.images}
@@ -58,8 +53,7 @@ function Projects() {
                         projectDescription={projects.chatcat.description[lang]}
                         tecnologies={projects.chatcat.tecnologies}
                         />
-                    <br/>    
-                    <br/>
+                    
                 </section>
                 <ContactButtons/>
             </div>

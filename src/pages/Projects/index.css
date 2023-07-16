@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('../../assets/fonts/Jost-VariableFont_wght.woff2');
+}
 .projects-category{
     width:100%;
     background-color: transparent;
@@ -11,4 +15,5 @@
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     background-color: rgba(255, 255, 255, 0.2);
+    font-family: 'Jost';
 }
