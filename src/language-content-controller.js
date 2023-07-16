@@ -113,7 +113,7 @@ export const projects = {
                 what the client wanted and conduct interviews to obtain opinions on what would be a good experience for users.`,
         },
         link:'https://krol-nails.onrender.com/',
-        images:['/src/assets/home-background.jpg'],
+        images:['/src/assets/home-background.jpg', '/src/assets/en-flag.png', '/src/assets/es-flag.png'],
         tecnologies:['tecnologies_images/vue.svg','tecnologies_images/git.svg', 'tecnologies_images/github.svg'],
     },
     gummawaka:{
