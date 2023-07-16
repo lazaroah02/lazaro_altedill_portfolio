@@ -97,3 +97,81 @@ export const navbar = {
         projects:'Projects',
     }
 }
+
+export const projects = {
+    krolNails:{
+        name:'Krol Nails',
+        description:{
+            'es':`Proyecto freelance para un salón de belleza, consiste en un catálogo para mostrar los trabajos realizados
+                por el salón, dar a conocer los distintos precios y ofertas que ofrecen, realizar reservaciones, etc. 
+                Fue interesante ya que tuve que utilizar habilidades de obtención de requisitos a la hora de llegar a exactamente lo
+                que el cliente quería y hacer entrevistas para obtener opiniones de cual sería una buena experiencia para los usuarios.`,
+
+            'en':`Freelance project for a beauty salon, consists of a catalog to show the work done
+                around the show, publicize the different prices and offers they offer, make reservations, etc.
+                It was interesting as I had to use requirements elicitation skills to come up with exactly
+                what the client wanted and conduct interviews to obtain opinions on what would be a good experience for users.`,
+        },
+        link:'https://krol-nails.onrender.com/',
+        images:['/src/assets/home-background.jpg'],
+        tecnologies:['tecnologies_images/vue.svg','tecnologies_images/git.svg', 'tecnologies_images/github.svg'],
+    },
+    gummawaka:{
+        name:'Gumma Waka',
+        description:{
+            'es':`Proyecto freelance para una empresa vendedora de productos de caucho. Consiste de un catálogo para mostrar
+                las distintas piezas que fabrica la empresa, y las distintas vias de contacto para encargar la fabricación de un lote
+                de algun producto. Fue un reto ya que el cliente era turco y al hablar no muy bien el inglés tuve que utilizar técnicas como 
+                la encuesta para extraer los requisitos y el tipo de aplicación web que se deseaba crear.`,
+
+            'en':`Freelance project for a company that sells rubber products. It consists of a catalog to display
+                the different pieces that the company manufactures, and the different ways of contact to commission the manufacture of a batch
+                of some product. It was a challenge since the client was Turkish and speaking English not very well I had to use techniques such as
+                the survey to extract the requirements and the type of web application to be created.`,
+        },
+        link:'https://gumawaka.com/',
+        images:['/src/assets/home-background.jpg'],
+        tecnologies:['tecnologies_images/react.svg','tecnologies_images/django.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg'],
+    },
+    bestore:{
+        name:'BeStore',
+        description:{
+            'es':`Mi pais natal es Cuba, allí es dificil conseguir los productos básicos necesarios para vivir, 
+                a raiz de este problema los cubanos se han auxiliado de los grupos de compra y venta de facebook creando un mercado informal 
+                para así adquirir todo tipo de artículos. Por este motivo me dispuse la tarea de crear una tienda 
+                en línea donde las personas pudieran comprar y vender productos en un solo sitio y asi brindar una mayor facilidad y 
+                acceso para comprar y vender. La aplicación brinda las funcionalidades de tiendas como Amazon permitiendo 
+                comprar, vender, puntuar productos, agregar a favoritos, dispone de un panel de administración para qu los vendedores 
+                administren sus productos, historial de pedidos,entre otras funcionalidades. `,
+
+            'en':`My native country is Cuba, there it is difficult to get the basic products necessary to live,
+                As a result of this problem, Cubans have taken the help of Facebook buying and selling groups, creating an informal market
+                in order to acquire all kinds of items. For this reason I set myself the task of creating a store
+                online where people could buy and sell products in one place and thus provide greater ease and
+                Access to buy and sell. The application provides the functionalities of stores such as Amazon allowing
+                buy, sell, rate products, add to favorites, it has an administration panel for sellers to
+                manage your products, order history, among other features.`,
+        },
+        link:'',
+        images:['/src/assets/home-background.jpg'],
+        tecnologies:['tecnologies_images/react.svg','tecnologies_images/django.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg', 'tecnologies_images/docker.svg'],
+    },
+    chatcat:{
+        name:'ChatCat',
+        description:{
+            'es':`ChatCat es un chat en linea que me propuse hacer como proyecto personal para entender en profundidad como funcionan los 
+                sockets y las conexiones en tiempo real. La aplicacion brinda las funcionalidades de otras aplicaciones de chat como Wattsap,
+                con creación de grupos, chats privados, una red de amigos, una sala pública para conocer nuevas personas, pero con un toque personal 
+                inspirado en los gatos.`,
+
+            'en':`ChatCat is an online chat that I decided to do as a personal project to understand in depth how the
+                sockets and connections in real time. The application provides the functionalities of other chat applications such as Wattsap,
+                with group creation, private chats, a network of friends, a public room to meet new people, but with a personal touch inspired 
+                by cats.`,
+        },
+        link:'',
+        images:['/src/assets/home-background.jpg'],
+        tecnologies:['tecnologies_images/react.svg','tecnologies_images/django.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg', 'tecnologies_images/docker.svg'],
+    },
+    
+}

@@ -21,3 +21,11 @@ body{
     height: 78vh;
     overflow-y: auto;
 }
+.page-content-panel::-webkit-scrollbar{ 
+    background-color: transparent;
+    width: 5px;
+}
+.page-content-panel::-webkit-scrollbar-thumb {
+    background-color: #A1A3A5; 
+    border-radius: 20px;
+}
