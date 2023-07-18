@@ -31,5 +31,8 @@
     .navbar-item a{
         font-size:14px;
     }
+    .item-large{
+        width: 85px;
+    }
 }
 

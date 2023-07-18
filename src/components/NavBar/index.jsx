@@ -23,7 +23,7 @@ function NavBar() {
           {navbar[lang].about}
         </a>
       </div>
-      <div className="navbar-item">
+      <div className="navbar-item item-large">
         <a onClick={() => navigate("/skills")}>
           {pathname === "/skills" ? "/ " : null}
           {navbar[lang].skills}
