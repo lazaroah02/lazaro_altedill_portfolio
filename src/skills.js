@@ -37,7 +37,7 @@ export const SKILLS = [
     {
         id:8,
         name:'Git/Github',
-        url:'skills/git-github.svg'
+        url:'skills/git-github.png'
     },
     {
         id:9,
