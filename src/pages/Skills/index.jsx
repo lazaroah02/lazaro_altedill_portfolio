@@ -11,7 +11,7 @@ function Skills() {
                 <NavBar/>
                 <section className = "page-content-panel skills-content-container">
                     {SKILLS.map(skill => 
-                        <div onClick={() => setRotedCard(!rotedCard)}>
+                        <div>
                             <img alt = {skill.name} src = {skill.url}/>
                         </div>
                     )}

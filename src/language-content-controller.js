@@ -113,7 +113,7 @@ export const projects = {
                 what the client wanted and conduct interviews to obtain opinions on what would be a good experience for users.`,
         },
         link:'https://krol-nails.onrender.com/',
-        images:['/src/assets/home-background.jpg', '/src/assets/drop_3-wallpaper-1600x900.jpg', '/src/assets/earth_and_moon_from_space-wallpaper-2560x1600.jpg'],
+        images:['projects/krol_nails/img1.png', 'projects/krol_nails/img2.png', 'projects/krol_nails/img3.png', 'projects/krol_nails/img4.png'],
         tecnologies:['tecnologies_images/vue.svg','tecnologies_images/git.svg', 'tecnologies_images/github.svg'],
     },
     gummawaka:{
@@ -130,7 +130,7 @@ export const projects = {
                 the survey to extract the requirements and the type of web application to be created.`,
         },
         link:'https://gumawaka.com/',
-        images:['/src/assets/home-background.jpg'],
+        images:['projects/gumawaka/img1.png'],
         tecnologies:['tecnologies_images/react.svg','tecnologies_images/django.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg'],
     },
     bestore:{
@@ -153,7 +153,7 @@ export const projects = {
                 manage your products, order history, among other features.`,
         },
         link:'',
-        images:['/src/assets/home-background.jpg'],
+        images:['projects/bestore/img1.png', 'projects/bestore/img2.png', 'projects/bestore/img3.png'],
         tecnologies:['tecnologies_images/react.svg','tecnologies_images/django.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg', 'tecnologies_images/docker.svg'],
     },
     chatcat:{
@@ -170,7 +170,7 @@ export const projects = {
                 by cats.`,
         },
         link:'',
-        images:['/src/assets/home-background.jpg'],
+        images:['projects/chatcat/img1.png', 'projects/chatcat/img2.png'],
         tecnologies:['tecnologies_images/react.svg','tecnologies_images/django.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg', 'tecnologies_images/docker.svg'],
     },
     

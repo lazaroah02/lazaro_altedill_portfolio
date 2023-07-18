@@ -47,6 +47,6 @@ export const SKILLS = [
     {
         id:10,
         name:'SQL',
-        url:'skills/sql.png'
+        url:'skills/sql.svg'
     },
 ]

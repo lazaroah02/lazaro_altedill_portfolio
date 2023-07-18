@@ -10,17 +10,21 @@
 .skills-content-container div{
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 .skills-content-container img{
     width: 145px;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
-/*Mobile*/
+/*Mobile and tablet*/
 @media (max-width: 1000px){
     .skills-content-container{
-        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        width: 90%;
+        gap:10px;
+        margin:0 auto;
     }
 }
