@@ -15,10 +15,10 @@ function Home() {
                     <div className = "homepage-title">LAZARO <span>A.</span></div>
                     <div className = "homepage-subtitle">
                         <div>
-                            <p><span>•</span> Back end developer</p>
+                            <p><span>•</span> Backend developer</p>
                             <p><span>•</span> Full stack</p>
                         </div>
-                        <p> <span>•</span> Front end developer</p>
+                        <p> <span>•</span> Frontend developer</p>
                     </div>
                     <div className = "homepage-frase">{homeContent[lang].frase}</div>
                 </section>
