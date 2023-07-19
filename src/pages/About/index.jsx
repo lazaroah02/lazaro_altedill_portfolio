@@ -4,6 +4,8 @@ import { aboutMe, education } from '../../language-content-controller'
 import { useContext } from 'react'
 import LanguageContext from '../../context/lenguageContext'
 import Paragraph from '../../components/Paragraph'
+import {certificates} from '../../certificates'
+import ImagesSlider from '../../components/ImagesSlider'
 import '../general-pages-styles.css'
 import './index.css'
 
@@ -32,6 +34,9 @@ function About() {
                             content = {education[lang].content.education3.content}
                             />
                     </Paragraph>
+                <div className = "certificates-container">
+                    <ImagesSlider images = {certificates}/>
+                </div>    
                 </section>
                 <ContactButtons/>
             </div>
