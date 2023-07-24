@@ -85,10 +85,10 @@ export const education = {
 
 export const navbar = {
     'es':{
-        home:'Hogar',
-        about:'Acerca',
-        skills:'Habilidades',
-        projects:'Proyectos',
+        home:'Home',
+        about:'About',
+        skills:'Skills',
+        projects:'Projects',
     },
     'en':{
         home:'Home',
