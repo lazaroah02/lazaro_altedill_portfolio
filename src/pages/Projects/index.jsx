@@ -37,7 +37,15 @@ function Projects() {
                     <div className = "projects-category">
                         <div>{lang === 'es'?'Personales':'Personals'}</div>
                     </div>
-                     
+
+                    <ProjectComponent 
+                        projectName={projects.greennotes.name}
+                        images={projects.greennotes.images}
+                        link={projects.greennotes.link}
+                        projectDescription={projects.greennotes.description[lang]}
+                        tecnologies={projects.greennotes.tecnologies}
+                        />
+
                     <ProjectComponent 
                         projectName={projects.bestore.name}
                         images={projects.bestore.images}

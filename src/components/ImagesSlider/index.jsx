@@ -3,13 +3,13 @@ import {useRef} from 'react';
 import './index.css'
 
 function ImagesSlider({images}) {
-    const scrollRef = useRef([])
+    const scrollRef = useRef()
     const {contador, updateCont, processScrollChange} = useNavigateItems(scrollRef)
     
     return ( 
         <div className = "slider-container">
-                <div className = "images-container" ref = {scrollRef} onScroll={processScrollChange}>
-                    {images.map((img, index) => <img key = {img} id = {index} alt = "Project-Image" src = {img} />)}
+                <div className = "images-container" ref = {scrollRef} onScroll = {() => processScrollChange()}>
+                    {images.map((img) => <img key = {img} alt = "Project-Image" src = {img}/>)}
                 </div>
                 <div className = "images-navigator">
                     {images.map((img, index) => 

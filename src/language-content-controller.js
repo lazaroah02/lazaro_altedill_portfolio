@@ -85,10 +85,10 @@ export const education = {
 
 export const navbar = {
     'es':{
-        home:'Home',
-        about:'About',
-        skills:'Skills',
-        projects:'Projects',
+        home:'Hogar',
+        about:'Acerca',
+        skills:'Destrezas',
+        projects:'Proyectos',
     },
     'en':{
         home:'Home',
@@ -104,13 +104,13 @@ export const projects = {
         description:{
             'es':`Proyecto freelance para un salón de belleza, consiste en un catálogo para mostrar los trabajos realizados
                 por el salón, dar a conocer los distintos precios y ofertas que ofrecen, realizar reservaciones, etc. 
-                Fue interesante ya que tuve que utilizar habilidades de obtención de requisitos a la hora de llegar a exactamente lo
-                que el cliente quería y hacer entrevistas para obtener opiniones de cual sería una buena experiencia para los usuarios.`,
+                Utilicé Vue js lo que me permitió ampliar mi conocimiento en frontend ya que hasta ese momento solo había trabajado 
+                con React js`,
 
             'en':`Freelance project for a beauty salon, consists of a catalog to show the work done
                 around the show, publicize the different prices and offers they offer, make reservations, etc.
-                It was interesting as I had to use requirements elicitation skills to come up with exactly
-                what the client wanted and conduct interviews to obtain opinions on what would be a good experience for users.`,
+                I made the site with Vue js, it allowed me to increment my knowledge in front end because until the moment i had jus 
+                worked with React js.`,
         },
         link:'https://krol-nails.onrender.com/',
         images:['projects/krol_nails/img1.png', 'projects/krol_nails/img2.png', 'projects/krol_nails/img3.png', 'projects/krol_nails/img4.png'],
@@ -133,6 +133,21 @@ export const projects = {
         images:['projects/gumawaka/img1.png'],
         tecnologies:['tecnologies_images/react.svg','tecnologies_images/django.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg'],
     },
+    greennotes:{
+        name:'Green Notes',
+        description:{
+            'es':`Aplicacion de notas que permite crear, editar, borrar y listar notas. Fue un proyecto interesante porque fue mi 
+                primera vez trabajando con Graphql, me encantó esta tecnología. Este fue mi segundo proyecto construido con Vue js, 
+                permitiendomeme profundizar más en mis conocimientos sobre el framework.`,
+
+            'en':`Notes application that allows you to create, edit, delete and list notes. It was an interesting project because it was my
+                first time working with Graphql, I loved this technology. This was my second project built with Vue js,
+                allowing me to deepen my knowledge about the framework.`,
+        },
+        link:'https://green-notes-app.onrender.com/',
+        images:['projects/green_notes/img1.png', 'projects/green_notes/img2.png', 'projects/green_notes/img3.png', 'projects/green_notes/img4.png'],
+        tecnologies:['tecnologies_images/vue.svg','tecnologies_images/django.svg', 'tecnologies_images/graphql.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg', 'tecnologies_images/docker.svg'],
+    },
     bestore:{
         name:'BeStore',
         description:{
@@ -141,7 +156,7 @@ export const projects = {
                 para así adquirir todo tipo de artículos. Por este motivo me dispuse la tarea de crear una tienda 
                 en línea donde las personas pudieran comprar y vender productos en un solo sitio y asi brindar una mayor facilidad y 
                 acceso para comprar y vender. La aplicación brinda las funcionalidades de tiendas como Amazon permitiendo 
-                comprar, vender, puntuar productos, agregar a favoritos, dispone de un panel de administración para qu los vendedores 
+                comprar, vender, puntuar productos, agregar a favoritos, dispone de un panel de administración para que los vendedores 
                 administren sus productos, historial de pedidos,entre otras funcionalidades. `,
 
             'en':`My native country is Cuba, there it is difficult to get the basic products necessary to live,
@@ -160,7 +175,7 @@ export const projects = {
         name:'ChatCat',
         description:{
             'es':`ChatCat es un chat en linea que me propuse hacer como proyecto personal para entender en profundidad como funcionan los 
-                sockets y las conexiones en tiempo real. La aplicacion brinda las funcionalidades de otras aplicaciones de chat como Wattsap,
+                sockets y las conexiones en tiempo real. La aplicacion brinda las funcionalidades de otras aplicaciones de chat como WhatsApp,
                 con creación de grupos, chats privados, una red de amigos, una sala pública para conocer nuevas personas, pero con un toque personal 
                 inspirado en los gatos.`,
 

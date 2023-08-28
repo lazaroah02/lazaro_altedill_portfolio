@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {debounce} from '../utils/debounce'
 
 export function useNavigateItems(reference){
@@ -38,11 +38,11 @@ export function useNavigateItems(reference){
     //function to update the position of the navigation by scrolling the images
     function updateContByScroll(){
         if(reference.current !== undefined && reference.current !== null){
-          updateCont(Math.round(reference.current.scrollLeft/reference.current.offsetWidth))
+            updateCont(Math.round(reference.current.scrollLeft/reference.current.offsetWidth))
         }
       }
       //function to update the navigation status when the user make scroll
-      const processScrollChange = debounce(() => updateContByScroll(), 50);
+      const processScrollChange = debounce(() => updateContByScroll(), 100);
 
     return {contador, updateCont, processScrollChange}
 }

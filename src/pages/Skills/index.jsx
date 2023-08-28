@@ -10,8 +10,8 @@ function Skills() {
             <div className = "page-background-blur-cover">
                 <NavBar/>
                 <section className = "page-content-panel skills-content-container">
-                    {SKILLS.map(skill => 
-                        <div>
+                    {SKILLS.map((skill, index) => 
+                        <div key = {index}>
                             <img alt = {skill.name} src = {skill.url}/>
                         </div>
                     )}

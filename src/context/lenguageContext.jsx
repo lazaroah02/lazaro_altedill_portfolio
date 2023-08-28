@@ -10,11 +10,9 @@ export function LanguageContextProvider({children}){
         let language = localStorage.getItem('language')
         if(language === null || lang === undefined){
             if(navigatorLanguage.includes('es')){
-                console.log('es')
                 setLanguage('es')
             }
             else{
-                console.log('en')
                 setLanguage('en')
             } 
         }else{
