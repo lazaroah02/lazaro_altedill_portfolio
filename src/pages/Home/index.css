@@ -7,7 +7,7 @@
     src: url('../../assets//fonts/Jost-VariableFont_wght.woff2');
 }
 .home-page-background{
-    background-image:url('../../assets/home-background.jpg');
+    background-image:url('../../assets/home-background.webp');
     background-size: cover;
     background-repeat: no-repeat ;
     background-attachment: scroll;

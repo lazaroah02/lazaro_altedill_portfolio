@@ -2,56 +2,56 @@ export const SKILLS = [
     {
         id:1,
         name:'Javascript',
-        url:'skills/javascript.svg'
+        url:'skills/javascript.webp'
     },
     {
         id:2,
         name:'React',
-        url:'/skills/react.svg'
+        url:'/skills/react.webp'
     },
     {
         id:3,
         name:'Vue js',
-        url:'skills/vue.svg'
+        url:'skills/vue.webp'
     },
     {
         id:4,
         name:'HTML',
-        url:'skills/html.svg'
+        url:'skills/html.webp'
     },
     {
         id:5,
         name:'CSS',
-        url:'skills/css.svg'
+        url:'skills/css.webp'
     },
     {
         id:6,
         name:'Python',
-        url:'skills/python.svg'
+        url:'skills/python.webp'
     },
     {
         id:7,
         name:'Django',
-        url:'skills/django.svg'
+        url:'skills/django.webp'
     },
     {
         id:8,
         name:'Git/Github',
-        url:'skills/git-github.png'
+        url:'skills/git-github.webp'
     },
     {
         id:9,
         name:'Docker',
-        url:'skills/docker.svg'
+        url:'skills/docker.webp'
     },
     {
         id:10,
         name:'SQL',
-        url:'skills/sql.svg'
+        url:'skills/sql.webp'
     },
     {
         id:11,
         name:'GraphQl',
-        url:'skills/graphql.png'
+        url:'skills/graphql.webp'
     },
 ]

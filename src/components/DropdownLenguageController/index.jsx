@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import DownIcon from "../../assets/down-icon.svg";
 import UpIcon from "../../assets/up-icon.svg";
-import EsFlag from "../../assets/es-flag.png";
+import EsFlag from "../../assets/es-flag.webp";
 import EnFlag from "../../assets/en-flag.png";
 import LanguageContext from '../../context/lenguageContext'
 import "./index.css";

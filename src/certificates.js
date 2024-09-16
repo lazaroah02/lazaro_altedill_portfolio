@@ -1,5 +1,5 @@
 export const certificates = [
-    'certificates/certificado-django.jpeg',
-    'certificates/certificado-django-intermedio.jpeg',
-    'certificates/certificado-react.jpeg'
+    'certificates/certificado-django.webp',
+    'certificates/certificado-django-intermedio.webp',
+    'certificates/certificado-react.webp'
 ]

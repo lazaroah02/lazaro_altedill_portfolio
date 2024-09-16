@@ -113,7 +113,7 @@ export const projects = {
                 worked with React js.`,
         },
         link:'https://krol-nails.onrender.com/',
-        images:['projects/krol_nails/img1.png', 'projects/krol_nails/img2.png', 'projects/krol_nails/img3.png', 'projects/krol_nails/img4.png'],
+        images:['projects/krol_nails/img1.webp', 'projects/krol_nails/img2.webp', 'projects/krol_nails/img3.webp', 'projects/krol_nails/img4.webp'],
         tecnologies:['tecnologies_images/vue.svg','tecnologies_images/git.svg', 'tecnologies_images/github.svg'],
     },
     gummawaka:{
@@ -130,7 +130,7 @@ export const projects = {
                 the survey to extract the requirements and the type of web application to be created.`,
         },
         link:'https://gumawaka.com/',
-        images:['projects/gumawaka/img1.png'],
+        images:['projects/gumawaka/img1.webp'],
         tecnologies:['tecnologies_images/react.svg','tecnologies_images/django.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg'],
     },
     greennotes:{
@@ -145,7 +145,7 @@ export const projects = {
                 allowing me to deepen my knowledge about the framework.`,
         },
         link:'https://green-notes-app.onrender.com/',
-        images:['projects/green_notes/img1.png', 'projects/green_notes/img2.png', 'projects/green_notes/img3.png', 'projects/green_notes/img4.png'],
+        images:['projects/green_notes/img1.webp', 'projects/green_notes/img2.webp', 'projects/green_notes/img3.webp', 'projects/green_notes/img4.webp'],
         tecnologies:['tecnologies_images/vue.svg','tecnologies_images/django.svg', 'tecnologies_images/graphql.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg', 'tecnologies_images/docker.svg'],
     },
     bestore:{
@@ -168,7 +168,7 @@ export const projects = {
                 manage your products, order history, among other features.`,
         },
         link:'',
-        images:['projects/bestore/img1.png', 'projects/bestore/img2.png', 'projects/bestore/img3.png'],
+        images:['projects/bestore/img1.webp', 'projects/bestore/img2.webp', 'projects/bestore/img3.webp'],
         tecnologies:['tecnologies_images/react.svg','tecnologies_images/django.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg', 'tecnologies_images/docker.svg'],
     },
     chatcat:{
@@ -185,7 +185,7 @@ export const projects = {
                 by cats.`,
         },
         link:'',
-        images:['projects/chatcat/img1.png', 'projects/chatcat/img2.png'],
+        images:['projects/chatcat/img1.webp', 'projects/chatcat/img2.webp'],
         tecnologies:['tecnologies_images/react.svg','tecnologies_images/django.svg', 'tecnologies_images/git.svg', 'tecnologies_images/github.svg', 'tecnologies_images/docker.svg'],
     },
     
