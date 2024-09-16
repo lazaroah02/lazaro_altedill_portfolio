@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Josefin";
+    src: url('../../assets//fonts/JosefinSans-VariableFont_wght.woff2');
+}
+@font-face {
+    font-family: "Jost";
+    src: url('../../assets//fonts/Jost-VariableFont_wght.woff2');
+}
+.home-page-background{
+    background-image:url('../../assets/home-background.webp');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-attachment: scroll;
+    background-color: rgb(18, 16, 16);
+    width: 100vw;
+    height: 100vh;
+    margin:0 ;
+}
+.home-page{
+    backdrop-filter: blur(4px); 
+    width: 100vw;
+    height: 100vh;
+    margin:0 ;
+}
+.content-homepage-container{
+    color:#fff;
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homepage-title{
+    font-size:100px;
+    font-family: 'Jost';
+    font-weight: 500;
+    text-shadow: 5px 5px 5px black;
+}
+.homepage-title span{
+    margin-left: 55px;
+}
+.homepage-subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:50px;
+    font-size: 20px;
+}
+.homepage-subtitle p{
+    margin-top:0;
+    font-family: 'Jost';
+}
+.homepage-subtitle span{
+    font-family: 'Courier New', Courier, monospace;
+}
+.homepage-subtitle div{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+.homepage-frase{
+    font-size:27px;
+    margin-top:30px;
+    font-family: 'Josefin';
+    opacity: 0.8;
+}
+
+
+/*Mobile*/
+@media (max-width: 600px){
+    .homepage-title{
+        font-size:50px;
+    }
+    .homepage-title span{
+        margin-left: 30px;
+    }
+    .homepage-frase{
+        font-size: 20px;
+    }
+    .homepage-subtitle{
+        flex-direction: column;
+        gap:5px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .homepage-subtitle p{
+        margin: 0 auto;
+    }
+    .homepage-subtitle div{
+        gap:10px;
+    }
+}
+

@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Home from "../landingPageSections/Home";
+import About from "../landingPageSections/About";
+import { certificates } from "../certificates";
+import ImagesSlider from "../components/ImagesSlider";
+import Skills from "../landingPageSections/Skills";
+import Projects from "../landingPageSections/Projects";
+import Footer from "../landingPageSections/Footer";
+---
+<Layout title = "Lazaro Altedill">
+	<Home id = "home"/>
+	<About id = "about">
+		<ImagesSlider client:load images = {certificates}/>  
+	</About>
+	<Skills id = "skills"/>
+	<Projects id = "projects"/>
+	<Footer/>
+</Layout>
+

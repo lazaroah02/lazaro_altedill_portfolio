@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('../../assets/fonts/Jost-VariableFont_wght.woff2');
+}
+@font-face {
+    font-family: 'HindMadurai';
+    src: url('../../assets/fonts/HindMadurai-Regular.woff2');
+}
+.project{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.project-image{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+.project-description{
+    height: 100%;
+    width: 40%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    border-left: 3px solid #fff;
+}
+.project-description-text{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 15px;
+    gap:10px;
+    font-family: 'HindMadurai';
+}
+.project-description-text span{
+    font-size: 20px;
+}
+.project-description-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px;
+}
+.visit-site-button{
+    border-radius: 20px;
+    width: 128px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jost';
+}
+.tecnologies-container img{
+    opacity: 0.8;
+}
+
+/*Mobile*/
+@media (max-width: 400px){
+    .project{
+        flex-direction: column;
+        height: auto;
+    }
+    .project-image{
+        width: 100%;
+        height: auto;
+    }
+    .project-description{
+        width: 100%;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 400px) and (max-width: 1000px){
+    .project{
+        flex-direction: column;
+        height: auto;
+    }
+    .project-image{
+        width: 100%;
+        max-height: 50vh;
+    }
+    .project-description{
+        width: 100%;
+    }
+}

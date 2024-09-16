@@ -1,0 +1,31 @@
+body{
+    margin:0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+.page-background{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/home-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-color: black;
+    position:absolute;
+}
+.page-background-blur-cover{
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(20px);
+}
+.page-content-panel{
+    width: 100vw;
+}
+.page-content-panel::-webkit-scrollbar{ 
+    background-color: transparent;
+    width: 10px;
+}
+.page-content-panel::-webkit-scrollbar-thumb {
+    background-color: #A1A3A5; 
+    border-radius: 20px;
+}

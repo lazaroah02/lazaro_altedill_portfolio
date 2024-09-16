@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Jost";
+    src: url('../../assets//fonts/Jost-VariableFont_wght.woff2');
+}
+.navbar{
+    width: 100vw;
+    height: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding-top:5px;
+}
+
+.navbar-item{
+    width: 20%;
+    text-align: center;
+}
+.navbar-item a{
+    cursor: pointer;
+    color: #fff;
+    font-size:20px;
+    font-family: 'Jost';
+    text-decoration: none;
+}
+.navbar-item a:hover{
+    color:#78D9FC;
+}
+
+/*Mobile*/
+@media (max-width: 400px){
+    .navbar-item a{
+        font-size:14px;
+    }
+    .item-large{
+        width: 85px;
+    }
+}
+
