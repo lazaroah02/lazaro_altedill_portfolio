@@ -1,0 +1,153 @@
+{
+    "aboutMe": {
+        "title": "Hi, Welcome to my portfolio",
+        "content": "If you can imagine it, you can program it. That phrase changed my life. I'm web full stack developer, who studied computing engineering.  Love building products, passionate about challenges, interested in growth. We have the responsability to build the future with our code"
+    },
+    "education": {
+        "title": "Education",
+        "content": {
+            "education1": {
+                "title": "Computing Engineering",
+                "content": "Holguin University, Cuba (2021- 2024)"
+            },
+            "education2": {
+                "title": "Autodidact",
+                "content": "Most of my programming skills i have learned by my own."
+            },
+            "education3": {
+                "title": "Platzi",
+                "content": "I got a subscription on Platzi to increase my skills"
+            }
+        }
+    },
+    "skills": [
+        {
+            "id": 1,
+            "name": "Javascript",
+            "url": "skills/javascript.webp"
+        },
+        {
+            "id": 2,
+            "name": "React",
+            "url": "/skills/react.webp"
+        },
+        {
+            "id": 3,
+            "name": "Vue js",
+            "url": "skills/vue.webp"
+        },
+        {
+            "id": 4,
+            "name": "HTML",
+            "url": "skills/html.webp"
+        },
+        {
+            "id": 5,
+            "name": "CSS",
+            "url": "skills/css.webp"
+        },
+        {
+            "id": 6,
+            "name": "Python",
+            "url": "skills/python.webp"
+        },
+        {
+            "id": 7,
+            "name": "Django",
+            "url": "skills/django.webp"
+        },
+        {
+            "id": 8,
+            "name": "Git/Github",
+            "url": "skills/git-github.webp"
+        },
+        {
+            "id": 9,
+            "name": "Docker",
+            "url": "skills/docker.webp"
+        },
+        {
+            "id": 10,
+            "name": "SQL",
+            "url": "skills/sql.webp"
+        },
+        {
+            "id": 11,
+            "name": "GraphQl",
+            "url": "skills/graphql.webp"
+        }
+    ],
+    "certificates": [
+        "certificates/certificado-django.webp",
+        "certificates/certificado-django-intermedio.webp",
+        "certificates/certificado-react.webp"
+    ],
+    "projects": {
+        "krolNails": {
+            "name": "Krol Nails",
+            "description": "Freelance project for a beauty salon, consists of a catalog to show the work done around the show, publicize the different prices and offers they offer, make reservations, etc. I made the site with Vue js, it allowed me to increment my knowledge in front end because until the moment i had jus worked with React js.",
+            "link": "https://krol-nails.onrender.com/",
+            "images": [
+                "projects/krol_nails/img1.webp",
+                "projects/krol_nails/img2.webp",
+                "projects/krol_nails/img3.webp",
+                "projects/krol_nails/img4.webp"
+            ],
+            "tecnologies": [
+                "tecnologies_images/vue.svg",
+                "tecnologies_images/git.svg",
+                "tecnologies_images/github.svg"
+            ]
+        },
+        "gummawaka": {
+            "name": "Gumma Waka",
+            "description": "`Freelance project for a company that sells rubber products. It consists of a catalog to display the different pieces that the company manufactures, and the different ways of contact to commission the manufacture of a batch of some product. It was a challenge since the client was Turkish and speaking English not very well I had to use techniques such as the survey to extract the requirements and the type of web application to be created.",
+            "link": "https://gumawaka.com/",
+            "images": [
+                "projects/gumawaka/img1.webp"
+            ],
+            "tecnologies": [
+                "tecnologies_images/react.svg",
+                "tecnologies_images/django.svg",
+                "tecnologies_images/git.svg",
+                "tecnologies_images/github.svg"
+            ]
+        },
+        "greennotes": {
+            "name": "Green Notes",
+            "description": "Notes application that allows you to create, edit, delete and list notes. It was an interesting project because it was my first time working with Graphql, I loved this technology. This was my second project built with Vue js, allowing me to deepen my knowledge about the framework.",
+            "link": "https://green-notes-app.onrender.com/",
+            "images": [
+                "projects/green_notes/img1.webp",
+                "projects/green_notes/img2.webp",
+                "projects/green_notes/img3.webp",
+                "projects/green_notes/img4.webp"
+            ],
+            "tecnologies": [
+                "tecnologies_images/vue.svg",
+                "tecnologies_images/django.svg",
+                "tecnologies_images/graphql.svg",
+                "tecnologies_images/git.svg",
+                "tecnologies_images/github.svg",
+                "tecnologies_images/docker.svg"
+            ]
+        },
+        "bestore": {
+            "name": "BeStore",
+            "description": "E-Commerse made with React and Django",
+            "link": "",
+            "images": [
+                "projects/bestore/img1.webp",
+                "projects/bestore/img2.webp",
+                "projects/bestore/img3.webp"
+            ],
+            "tecnologies": [
+                "tecnologies_images/react.svg",
+                "tecnologies_images/django.svg",
+                "tecnologies_images/git.svg",
+                "tecnologies_images/github.svg",
+                "tecnologies_images/docker.svg"
+            ]
+        }
+    }
+}

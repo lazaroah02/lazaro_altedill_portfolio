@@ -1,11 +1,8 @@
 import NavBar from '../../components/NavBar'
 import ContactButtons from '../../components/ContactButtons';
-import {homeContent} from '../../language-content-controller'
 import './index.css'
 
 function Home({id}) {
-    const lang = "en"
-
     return ( 
         <main className = "home-page-background">
             <div id = {id} className = "home-page">
@@ -15,7 +12,7 @@ function Home({id}) {
                     <div className = "homepage-subtitle">
                         <p><span>•</span> Web Full Stack Developer</p>
                     </div>
-                    <div className = "homepage-frase">{homeContent[lang].frase}</div>
+                    <div className = "homepage-frase">{"< Build the future with your code />"}</div>
                 </section>
                 <div className = "homepage-contact-buttons-container">
                     <ContactButtons/>

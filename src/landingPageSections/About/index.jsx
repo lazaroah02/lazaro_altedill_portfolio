@@ -1,30 +1,29 @@
-import { aboutMe, education } from '../../language-content-controller'
+import {aboutMe, education} from '../../my-info.json'
 import Paragraph from '../../components/Paragraph'
 import SectionNameLabel from '../../components/SectionNameLabel'
 import '../general-pages-styles.css'
 import './index.css'
 
 function About({id, children}) {
-    const lang = 'en'
     return ( 
         <section id = {id} className = "about-content-container">
             <SectionNameLabel>About</SectionNameLabel>
-            <Paragraph title = {aboutMe[lang].title} content = {aboutMe[lang].content}/>
-            <Paragraph title = {education[lang].title}>
+            <Paragraph title = {aboutMe.title} content = {aboutMe.content}/>
+            <Paragraph title = {education.title}>
                 <Paragraph 
                     type = {'sub-paragraph'}
-                    title = {education[lang].content.education1.title}
-                    content = {education[lang].content.education1.content}
+                    title = {education.content.education1.title}
+                    content = {education.content.education1.content}
                     />
                 <Paragraph 
                     type = {'sub-paragraph'}
-                    title = {education[lang].content.education2.title}
-                    content = {education[lang].content.education2.content}
+                    title = {education.content.education2.title}
+                    content = {education.content.education2.content}
                     />
                 <Paragraph 
                     type = {'sub-paragraph'}
-                    title = {education[lang].content.education3.title}
-                    content = {education[lang].content.education3.content}
+                    title = {education.content.education3.title}
+                    content = {education.content.education3.content}
                     />
             </Paragraph>  
             <div className = "certificates-container">

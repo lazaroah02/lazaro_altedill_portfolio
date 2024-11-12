@@ -1,29 +1,26 @@
-import { navbar } from "../../language-content-controller";
 import "./index.css";
 
 function NavBar() {
-  const lang = 'en';
-
   return (
     <div className="navbar">
       <div className="navbar-item">
         <a href = "#home">
-          {navbar[lang].home}
+          Home
         </a>
       </div>
       <div className="navbar-item">
         <a href = "#about">
-          {navbar[lang].about}
+          About
         </a>
       </div>
       <div className="navbar-item item-large">
         <a href = "#skills">
-          {navbar[lang].skills}
+          Skills
         </a>
       </div>
       <div className="navbar-item">
         <a href = "#projects">
-          {navbar[lang].projects}
+          Projects
         </a>
       </div>
     </div>

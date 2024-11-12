@@ -2,8 +2,6 @@ import ImagesSlider from '../ImagesSlider';
 import './index.css'
 
 function ProjectComponent({projectName, images, projectDescription, link, tecnologies}) {
-    const lang = 'en'
-
     return ( 
         <div className = "project">
             <div className = "project-image">
@@ -19,7 +17,7 @@ function ProjectComponent({projectName, images, projectDescription, link, tecnol
                 </div>
                 <div className = "project-description-buttons">
                     {link !== ''?
-                        <a className = "visit-site-button" href = {link} target = "_blank">{lang === 'en'?'Visit site':'Visitar sitio'}</a>
+                        <a className = "visit-site-button" href = {link} target = "_blank">Visit site</a>
                         :null
                     }
                 </div>

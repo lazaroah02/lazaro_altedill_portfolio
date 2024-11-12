@@ -1,12 +1,10 @@
-import { projects } from "../../language-content-controller";
+import { projects } from "../../my-info.json";
 import ProjectComponent from "../../components/ProjectComponent";
 import SectionNameLabel from "../../components/SectionNameLabel";
 import "../general-pages-styles.css";
 import "./index.css";
 
 function Projects({ id }) {
-  const lang = "en";
-
   return (
     <section id={id} className="projects-content-container">
 
@@ -16,7 +14,7 @@ function Projects({ id }) {
         projectName={projects.krolNails.name}
         images={projects.krolNails.images}
         link={projects.krolNails.link}
-        projectDescription={projects.krolNails.description[lang]}
+        projectDescription={projects.krolNails.description}
         tecnologies={projects.krolNails.tecnologies}
       />
 
@@ -24,7 +22,7 @@ function Projects({ id }) {
         projectName={projects.gummawaka.name}
         images={projects.gummawaka.images}
         link={projects.gummawaka.link}
-        projectDescription={projects.gummawaka.description[lang]}
+        projectDescription={projects.gummawaka.description}
         tecnologies={projects.gummawaka.tecnologies}
       />
 
@@ -32,7 +30,7 @@ function Projects({ id }) {
         projectName={projects.greennotes.name}
         images={projects.greennotes.images}
         link={projects.greennotes.link}
-        projectDescription={projects.greennotes.description[lang]}
+        projectDescription={projects.greennotes.description}
         tecnologies={projects.greennotes.tecnologies}
       />
 
@@ -40,17 +38,10 @@ function Projects({ id }) {
         projectName={projects.bestore.name}
         images={projects.bestore.images}
         link={projects.bestore.link}
-        projectDescription={projects.bestore.description[lang]}
+        projectDescription={projects.bestore.description}
         tecnologies={projects.bestore.tecnologies}
       />
 
-      <ProjectComponent
-        projectName={projects.chatcat.name}
-        images={projects.chatcat.images}
-        link={projects.chatcat.link}
-        projectDescription={projects.chatcat.description[lang]}
-        tecnologies={projects.chatcat.tecnologies}
-      />
     </section>
   );
 }
