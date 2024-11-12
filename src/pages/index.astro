@@ -7,8 +7,10 @@ import ImagesSlider from "../components/ImagesSlider";
 import Skills from "../landingPageSections/Skills";
 import Projects from "../landingPageSections/Projects";
 import Footer from "../landingPageSections/Footer";
+import ButtonGoTop from "../components/ButtonGoTop";
 ---
 <Layout title = "Lazaro Altedill">
+	<ButtonGoTop client:only/>
 	<Home id = "home"/>
 	<About id = "about">
 		<ImagesSlider client:load images = {certificates}/>  

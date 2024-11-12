@@ -5,20 +5,5 @@
 
 .projects-content-container{
     margin-top: 50px;
-}
-
-.projects-category{
-    width:100%;
-    background-color: transparent;
-    display: flex;
-    justify-content: flex-end;
-}
-.projects-category div{
-    color: #fff;
-    width: 120px;
-    padding: 8px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
-    font-family: 'Jost';
+    padding-top: 30px;
 }

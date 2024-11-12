@@ -1,0 +1,15 @@
+.button-scroll-top{
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+    background-color: rgb(169, 167, 167);
+    border: 0;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 100;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

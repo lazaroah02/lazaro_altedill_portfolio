@@ -1,5 +1,6 @@
 import { aboutMe, education } from '../../language-content-controller'
 import Paragraph from '../../components/Paragraph'
+import SectionNameLabel from '../../components/SectionNameLabel'
 import '../general-pages-styles.css'
 import './index.css'
 
@@ -7,6 +8,7 @@ function About({id, children}) {
     const lang = 'en'
     return ( 
         <section id = {id} className = "about-content-container">
+            <SectionNameLabel>About</SectionNameLabel>
             <Paragraph title = {aboutMe[lang].title} content = {aboutMe[lang].content}/>
             <Paragraph title = {education[lang].title}>
                 <Paragraph 
@@ -25,7 +27,7 @@ function About({id, children}) {
                     content = {education[lang].content.education3.content}
                     />
             </Paragraph>  
-            <div class = "certificates-container">
+            <div className = "certificates-container">
                 {children}
             </div>
         </section>
