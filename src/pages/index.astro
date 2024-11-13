@@ -13,7 +13,7 @@ import ButtonGoTop from "../components/ButtonGoTop";
 	<ButtonGoTop client:only/>
 	<Home id = "home"/>
 	<About id = "about">
-		<ImagesSlider client:load images = {certificates}/>  
+		<ImagesSlider client:load images = {certificates} imagesMaxWidth={650}/>  
 	</About>
 	<Skills id = "skills"/>
 	<Projects id = "projects" client:load/>

@@ -2,13 +2,13 @@ import {useNavigateItems} from '../../customHooks/useNavigateItems'
 import {useRef} from 'react';
 import './index.css'
 
-function ImagesSlider({images}) {
+function ImagesSlider({images, imagesMaxWidth = 600}) {
     const scrollRef = useRef()
     const {contador, updateCont, processScrollChange} = useNavigateItems(scrollRef)
 
     return ( 
         <div className = "slider-container">
-            <div className = "images-container" ref = {scrollRef} onScroll = {processScrollChange}>
+            <div className = "images-container" style = {{maxWidth:`${imagesMaxWidth}px`}} ref = {scrollRef} onScroll = {processScrollChange}>
                 {images.map((img) => <img key = {img} alt = "Project-Image" src = {img}/>)}
             </div>
             <div className = "images-navigator">
