@@ -22,11 +22,11 @@ function Projects({ id }) {
         />
 
         <ProjectComponent
-            projectName={projects.gummawaka.name}
-            images={projects.gummawaka.images}
-            link={projects.gummawaka.link}
-            projectDescription={projects.gummawaka.description}
-            tecnologies={projects.gummawaka.tecnologies}
+            projectName={projects.rredduct.name}
+            images={projects.rredduct.images}
+            link={projects.rredduct.link}
+            projectDescription={projects.rredduct.description}
+            tecnologies={projects.rredduct.tecnologies}
         />
 
         <ProjectComponent
