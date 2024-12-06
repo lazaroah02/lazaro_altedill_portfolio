@@ -12,7 +12,7 @@ function ProjectComponent({projectName, images, projectDescription, link, tecnol
                     <span>{projectName}</span>
                     {projectDescription}
                     <div className = "tecnologies-container">
-                    {tecnologies.map(tec => <img  key = {tec} alt = "tecnologie" src = {tec}/>)}
+                    {tecnologies.map(tec => <img title = {tec.name} key = {tec.img} alt = "tecnologie" src = {tec.img}/>)}
                 </div>
                 </div>
                 <div className = "project-description-buttons">

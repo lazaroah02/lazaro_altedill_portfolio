@@ -1,5 +1,6 @@
 import { useState, type ReactNode } from "react";
 import UpArrow from '../assets/up-arrow.svg'
+import { navigate } from "astro:transitions/client";
 
 function Collapsable({children, height}:{children:ReactNode, height:string}) {
     const [collapsed, setCollapsed] = useState(true)
@@ -8,7 +9,10 @@ function Collapsable({children, height}:{children:ReactNode, height:string}) {
             <div style = {{overflowY:"hidden", height:`${collapsed?height:'auto'}`}}>
                 {children}
             </div>
-            <button style = {styles.button} onClick={() => setCollapsed(!collapsed)}>
+            <button style = {styles.button} onClick={() => {
+                navigate("#projects")
+                setCollapsed(!collapsed)
+                }}>
                 {<img src = {UpArrow.src} alt = "Up Arrow" style = {collapsed?{rotate:"180deg"}:null}/>}
             </button>
         </section>

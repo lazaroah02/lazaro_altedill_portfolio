@@ -10,7 +10,7 @@ function Home({id}) {
                 <section className = "content-homepage-container">
                     <div className = "homepage-title">LAZARO <span>A.</span></div>
                     <div className = "homepage-subtitle">
-                        <p><span>•</span> Web Full Stack Developer</p>
+                        <p>Full Stack Developer</p>
                     </div>
                     <div className = "homepage-frase">{"< Build the future with your code />"}</div>
                 </section>

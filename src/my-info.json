@@ -80,37 +80,25 @@
     "certificates": [
         "certificates/certificado-django.webp",
         "certificates/certificado-django-intermedio.webp",
-        "certificates/certificado-react.webp"
+        "certificates/certificado-react.webp",
+        "certificates/certificado-fundamentos-ing-software.webp"
     ],
     "projects": {
-        "krolNails": {
-            "name": "Krol Nails",
-            "description": "Freelance project for a beauty salon. A catalog to show works, offers, contact and more. It was my first freelance project, so I learned how to negotiate with clients and give value to them.",
-            "link": "https://krol-nails.onrender.com/",
-            "images": [
-                "projects/krol_nails/img1.webp",
-                "projects/krol_nails/img2.webp",
-                "projects/krol_nails/img3.webp",
-                "projects/krol_nails/img4.webp"
-            ],
-            "tecnologies": [
-                "tecnologies_images/vue.svg",
-                "tecnologies_images/git.svg",
-                "tecnologies_images/github.svg"
-            ]
-        },
         "rredduct": {
             "name": "Rred Duct",
-            "description": "Freelance project for a company that sells rubber and metal products. A catalog to display different pieces that the company manufactures, contact info and more. It was a challenge since the client was Turkish and speaking English not very well.",
+            "description": "Freelance project for a company that sells rubber and metal products. A catalog to display different pieces that the company manufactures, contact info and more. It was a challenge since the client was Turkish and his English was not very well.",
             "link": "https://rred-duct.com/",
             "images": [
-                "projects/gumawaka/img1.webp"
+                "projects/rred-duct/01.webp",
+                "projects/rred-duct/02.webp",
+                "projects/rred-duct/03.webp",
+                "projects/rred-duct/04.webp",
+                "projects/rred-duct/05.webp"
             ],
             "tecnologies": [
-                "tecnologies_images/react.svg",
-                "tecnologies_images/django.svg",
-                "tecnologies_images/git.svg",
-                "tecnologies_images/github.svg"
+                {"name":"Astro", "img":"tecnologies_images/react.svg"},
+                {"name":"Git", "img":"tecnologies_images/git.svg"},
+                {"name":"GitHub", "img":"tecnologies_images/github.svg"}
             ]
         },
         "greennotes": {
@@ -123,12 +111,26 @@
                 "projects/green_notes/img4.webp"
             ],
             "tecnologies": [
-                "tecnologies_images/vue.svg",
-                "tecnologies_images/django.svg",
-                "tecnologies_images/graphql.svg",
-                "tecnologies_images/git.svg",
-                "tecnologies_images/github.svg",
-                "tecnologies_images/docker.svg"
+                {"name":"Vue js", "img":"tecnologies_images/vue.svg"},
+                {"name":"Django", "img":"tecnologies_images/django.svg"},
+                {"name":"GraphQl", "img":"tecnologies_images/graphql.svg"},
+                {"name":"Git", "img":"tecnologies_images/git.svg"},
+                {"name":"GitHub", "img":"tecnologies_images/github.svg"},
+                {"name":"Docker", "img":"tecnologies_images/docker.svg"}
+            ]
+        },
+        "english_vocabulary_manager":{
+            "name": "English Vocabulary Manager",
+            "description": "I build this app to facilitate the managment of english vocabulary. It has a section to manage the vocabulary and other to practice it. It was my first experience on mobile development.",
+            "link": "",
+            "images": [
+                "projects/english-vocabulary-manager/01.webp"
+                
+            ],
+            "tecnologies": [
+                {"name": "React Native", "img":"tecnologies_images/react.svg"},
+                {"name": "Git", "img":"tecnologies_images/git.svg"},
+                {"name": "GitHub", "img":"tecnologies_images/github.svg"}
             ]
         },
         "bestore": {
@@ -141,11 +143,44 @@
                 "projects/bestore/img3.webp"
             ],
             "tecnologies": [
-                "tecnologies_images/react.svg",
-                "tecnologies_images/django.svg",
-                "tecnologies_images/git.svg",
-                "tecnologies_images/github.svg",
-                "tecnologies_images/docker.svg"
+                {"name":"React js", "img":"tecnologies_images/react.svg"},
+                {"name":"Django", "img":"tecnologies_images/django.svg"},
+                {"name":"Git", "img":"tecnologies_images/git.svg"},
+                {"name":"GitHub", "img":"tecnologies_images/github.svg"},
+                {"name":"Docker", "img":"tecnologies_images/docker.svg"}
+            ]
+        },
+        "bm_company_shop": {
+            "name": "B&M Company Shop",
+            "description": "I used all the experienced that I acquired building Bestore, working as full stack, developing an E-commerce for the company B&M. It was my first experience working on a professional team and I learned a lot.",
+            "link": "",
+            "images": [
+                "projects/bestore/img1.webp",
+                "projects/bestore/img2.webp",
+                "projects/bestore/img3.webp"
+            ],
+            "tecnologies": [
+                {"name":"React js", "img":"tecnologies_images/react.svg"},
+                {"name":"Django", "img":"tecnologies_images/django.svg"},
+                {"name":"Git", "img":"tecnologies_images/git.svg"},
+                {"name":"GitHub", "img":"tecnologies_images/github.svg"},
+                {"name":"Docker", "img":"tecnologies_images/docker.svg"}
+            ]
+        },
+        "krolNails": {
+            "name": "Krol Nails",
+            "description": "Freelance project for a beauty salon. A catalog to show works, offers, contact and more. It was my first freelance project, so I learned how to negotiate with clients and give value to them.",
+            "link": "https://krol-nails.onrender.com/",
+            "images": [
+                "projects/krol_nails/img1.webp",
+                "projects/krol_nails/img2.webp",
+                "projects/krol_nails/img3.webp",
+                "projects/krol_nails/img4.webp"
+            ],
+            "tecnologies": [
+                {"name":"Vue js", "img":"tecnologies_images/vue.svg"},
+                {"name":"Git", "img":"tecnologies_images/git.svg"},
+                {"name":"GitHub", "img":"tecnologies_images/github.svg"}
             ]
         }
     }
