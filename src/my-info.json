@@ -12,7 +12,7 @@
             },
             "education2": {
                 "title": "Autodidact",
-                "content": "Most of my programming skills i have learned by my own."
+                "content": "Most of my programming skills I have learned by my own."
             },
             "education3": {
                 "title": "Platzi",
@@ -96,7 +96,7 @@
                 "projects/rred-duct/05.webp"
             ],
             "tecnologies": [
-                {"name":"Astro", "img":"tecnologies_images/react.svg"},
+                {"name":"Astro", "img":"tecnologies_images/astro.svg"},
                 {"name":"Git", "img":"tecnologies_images/git.svg"},
                 {"name":"GitHub", "img":"tecnologies_images/github.svg"}
             ]
