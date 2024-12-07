@@ -89,11 +89,11 @@
             "description": "Freelance project for a company that sells rubber and metal products. A catalog to display different pieces that the company manufactures, contact info and more. It was a challenge since the client was Turkish and his English was not very well.",
             "link": "https://rred-duct.com/",
             "images": [
+                "projects/rred-duct/05.webp",
                 "projects/rred-duct/01.webp",
                 "projects/rred-duct/02.webp",
                 "projects/rred-duct/03.webp",
-                "projects/rred-duct/04.webp",
-                "projects/rred-duct/05.webp"
+                "projects/rred-duct/04.webp"
             ],
             "tecnologies": [
                 {"name":"Astro", "img":"tecnologies_images/astro.svg"},

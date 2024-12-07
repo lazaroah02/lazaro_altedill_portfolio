@@ -1,6 +1,7 @@
 import {useNavigateItems} from '../../customHooks/useNavigateItems'
 import {useRef} from 'react';
 import './index.css'
+import { navigate } from 'astro:transitions/client';
 
 function ImagesSlider({images, imagesMaxWidth = 600}) {
     const scrollRef = useRef()
@@ -9,7 +10,7 @@ function ImagesSlider({images, imagesMaxWidth = 600}) {
     return ( 
         <div className = "slider-container">
             <div className = "images-container" style = {{maxWidth:`${imagesMaxWidth}px`}} ref = {scrollRef} onScroll = {processScrollChange}>
-                {images.map((img) => <img key = {img} alt = "Project-Image" src = {img}/>)}
+                {images.map((img) => <img onClick={() => navigate(img)} key = {img} alt = "Project-Image" src = {img}/>)}
             </div>
             <div className = "images-navigator">
                 {images.map((img, index) => 
