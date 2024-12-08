@@ -13,3 +13,10 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width:500px) {
+    .button-scroll-top{
+        right: 20px;
+        bottom: 30px;
+    }
+}

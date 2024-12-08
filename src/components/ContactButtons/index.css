@@ -3,16 +3,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
     width: 200px;
     height: auto;
     background-color:transparent;
-
-    position:fixed;
-    bottom: 10px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .contact-button{
@@ -27,16 +22,4 @@
 .contact-button p{
     margin-top:3px;
     font-size:16px;
-}
-
-/*Mobile*/
-@media (max-width: 400px){
-    .contact-button p{
-        font-size:10px
-    }
-    .contact-buttons-container{
-        bottom: 30px;
-        right: 30px;
-        justify-content: flex-end;
-    }
 }
