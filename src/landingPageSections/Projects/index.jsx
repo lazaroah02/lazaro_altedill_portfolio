@@ -38,6 +38,22 @@ function Projects({ id }) {
         />
 
         <ProjectComponent
+            projectName={projects.neonato.name}
+            images={projects.neonato.images}
+            link={projects.neonato.link}
+            projectDescription={projects.neonato.description}
+            tecnologies={projects.neonato.tecnologies}
+        />
+
+        <ProjectComponent
+            projectName={projects.biodigestion.name}
+            images={projects.biodigestion.images}
+            link={projects.biodigestion.link}
+            projectDescription={projects.biodigestion.description}
+            tecnologies={projects.biodigestion.tecnologies}
+        />
+
+        <ProjectComponent
             projectName={projects.bestore.name}
             images={projects.bestore.images}
             link={projects.bestore.link}

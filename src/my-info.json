@@ -102,7 +102,7 @@
         "rredduct": {
             "name": "Rred Duct",
             "description": "Freelance project for a company that sells rubber and metal products. A catalog to display different pieces that the company manufactures, contact info and more. It was a challenge since the client was Turkish and his English was not very well.",
-            "link": "https://rred-duct.com/",
+            "link": "https://rred-duct-project.onrender.com/",
             "images": [
                 "projects/rred-duct/05.webp",
                 "projects/rred-duct/01.webp",
@@ -195,6 +195,39 @@
             ],
             "tecnologies": [
                 {"name":"Vue js", "img":"tecnologies_images/vue.svg"},
+                {"name":"Git", "img":"tecnologies_images/git.svg"},
+                {"name":"GitHub", "img":"tecnologies_images/github.svg"}
+            ]
+        },
+        "neonato": {
+            "name": "Observatorio Central de Cirugía Neonatal (OCCN)",
+            "description": "System to manage all newborns information for the Pediatric Hospital of Holguin, Cuba. This project was carried on by GPDB, an investigation group of the university that I studied, that collaborate with hospitals to build products related with medicine, and I participated as a full stack developer. Was a great experience to see how software can impact in the life of so many people.",
+            "link": "",
+            "images": [
+                "projects/neonato/01.webp",
+                "projects/neonato/02.webp",
+                "projects/neonato/03.webp"
+            ],
+            "tecnologies": [
+                {"name":"React js", "img":"tecnologies_images/react.svg"},
+                {"name":"Django", "img":"tecnologies_images/django.svg"},
+                {"name":"Git", "img":"tecnologies_images/git.svg"},
+                {"name":"GitHub", "img":"tecnologies_images/github.svg"}
+            ]
+        },
+        "biodigestion": {
+            "name": "Bio Digestion",
+            "description": "System for the managment of the biogas production process from mixture vinaza-cachaza. I participated as a full stack developer. It was an enriching experience due to I learned a lot about how the production of biogas works.",
+            "link": "",
+            "images": [
+                "projects/biodigestion/01.webp",
+                "projects/biodigestion/02.webp",
+                "projects/biodigestion/03.webp",
+                "projects/biodigestion/04.webp"
+            ],
+            "tecnologies": [
+                {"name":"React js", "img":"tecnologies_images/react.svg"},
+                {"name":"Django", "img":"tecnologies_images/django.svg"},
                 {"name":"Git", "img":"tecnologies_images/git.svg"},
                 {"name":"GitHub", "img":"tecnologies_images/github.svg"}
             ]

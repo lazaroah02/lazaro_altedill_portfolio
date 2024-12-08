@@ -12,7 +12,7 @@ function ImagesSlider({images, imagesMaxWidth = 600}) {
         image.style.cursor = 'zoom-out'
         if (document.fullscreenElement) {
             document.exitFullscreen();
-            setTimeout(() => updateCont(lastContadorBeforFullScreen), 150)
+            setTimeout(() => updateCont(lastContadorBeforFullScreen), 200)
             setTimeout(() =>  {
                 window.scrollTo(0, lastScrollYValue)
             }, 100);
