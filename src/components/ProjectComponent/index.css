@@ -88,6 +88,7 @@
     .project{
         flex-direction: column;
         height: auto;
+        gap:30px
     }
     .project-image{
         width: 100%;
@@ -95,6 +96,9 @@
     }
     .project-description{
         width: 100%;
+    }
+    .visit-site-button{
+        margin-top: 20px;
     }
 }
 
@@ -103,6 +107,7 @@
     .project{
         flex-direction: column;
         height: auto;
+        gap:30px
     }
     .project-image{
         width: 100%;
@@ -110,5 +115,8 @@
     }
     .project-description{
         width: 100%;
+    }
+    .visit-site-button{
+        margin-top: 20px;
     }
 }
