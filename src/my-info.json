@@ -23,58 +23,73 @@
     "skills": [
         {
             "id": 1,
-            "name": "Javascript",
-            "url": "skills/javascript.webp"
-        },
-        {
-            "id": 2,
-            "name": "React",
-            "url": "/skills/react.webp"
-        },
-        {
-            "id": 3,
-            "name": "Vue js",
-            "url": "skills/vue.webp"
-        },
-        {
-            "id": 4,
             "name": "HTML",
             "url": "skills/html.webp"
         },
         {
-            "id": 5,
+            "id": 2,
             "name": "CSS",
             "url": "skills/css.webp"
         },
         {
+            "id": 3,
+            "name": "JavaScript",
+            "url": "skills/javascript.webp"
+        },
+        {
+            "id": 4,
+            "name": "TypeScript",
+            "url": "skills/typescript.webp"
+        },
+        {
+            "id": 5,
+            "name": "React",
+            "url": "/skills/react.webp"
+        },
+        {
             "id": 6,
+            "name": "Vue js",
+            "url": "skills/vue.webp"
+        },
+        {
+            "id": 7,
+            "name": "Astro",
+            "url": "skills/astro.webp"
+        },
+        {
+            "id": 8,
             "name": "Python",
             "url": "skills/python.webp"
         },
         {
-            "id": 7,
+            "id": 9,
             "name": "Django",
             "url": "skills/django.webp"
         },
         {
-            "id": 8,
+            "id": 10,
             "name": "Git/Github",
             "url": "skills/git-github.webp"
         },
         {
-            "id": 9,
+            "id": 11,
             "name": "Docker",
             "url": "skills/docker.webp"
         },
         {
-            "id": 10,
+            "id": 12,
             "name": "SQL",
             "url": "skills/sql.webp"
         },
         {
-            "id": 11,
+            "id": 13,
             "name": "GraphQl",
             "url": "skills/graphql.webp"
+        },
+        {
+            "id": 14,
+            "name": "Scrapping",
+            "url": "skills/scrapping.webp"
         }
     ],
     "certificates": [
@@ -155,9 +170,10 @@
             "description": "I used all the experienced that I acquired building Bestore, working as full stack, developing an E-commerce for the company B&M. It was my first experience working on a professional team and I learned a lot.",
             "link": "",
             "images": [
-                "projects/bestore/img1.webp",
-                "projects/bestore/img2.webp",
-                "projects/bestore/img3.webp"
+                "projects/bm-store/01.webp",
+                "projects/bm-store/02.webp",
+                "projects/bm-store/03.webp",
+                "projects/bm-store/04.webp"
             ],
             "tecnologies": [
                 {"name":"React js", "img":"tecnologies_images/react.svg"},

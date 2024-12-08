@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import {debounce} from '../utils/debounce'
 
 export function useNavigateItems(reference){
