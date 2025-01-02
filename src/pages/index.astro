@@ -8,18 +8,15 @@ import Skills from "../landingPageSections/Skills";
 import Projects from "../landingPageSections/Projects";
 import Footer from "../landingPageSections/Footer";
 import ButtonGoTop from "../components/ButtonGoTop";
-import { HomePageImage } from "@/landingPageSections/Home/Image";
 ---
 <Layout title = "Lazaro Altedill">
 	<ButtonGoTop client:only/>
-	<Home id = "home">
-		<HomePageImage client:load/>
-	</Home>
+	<Home id = "home"/>
 	<About id = "about">
 		<ImagesSlider client:load images = {certificates} imagesMaxWidth={500}/>  
 	</About>
 	<Skills id = "skills"/>
 	<Projects id = "projects" client:load/>
-	<Footer/>
+	<Footer id = "footer"/>
 </Layout>
 

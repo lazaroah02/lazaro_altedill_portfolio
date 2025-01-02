@@ -8,8 +8,8 @@ export function Title() {
       </div>
       <div className="homepage-subtitle">Full Stack Web Developer</div>
       <div className = "homepage-buttons-container">
-        <button>My Work</button>
-        <button>Contanct Me</button>
+        <a href = "#projects">My Work</a>
+        <a href = "#footer">Contanct Me</a>
       </div>
     </section>
   );
