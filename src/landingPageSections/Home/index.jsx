@@ -14,9 +14,6 @@ function Home({id}) {
                     </div>
                     <div className = "homepage-frase">{"< Build the future with your code />"}</div>
                 </section>
-                <div className = "homepage-contact-buttons-container">
-                    <ContactButtons/>
-                </div>
             </div>
         </main>
      );
