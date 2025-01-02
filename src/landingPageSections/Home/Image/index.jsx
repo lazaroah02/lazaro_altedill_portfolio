@@ -5,6 +5,7 @@ export function HomePageImage() {
     return ( 
         <section className = "hompage-image-container">
             <img className = "my-homepage-image" src = {MyImage.src}/>
+            <div className = "luminous-effect"></div>
         </section>
      );
 }

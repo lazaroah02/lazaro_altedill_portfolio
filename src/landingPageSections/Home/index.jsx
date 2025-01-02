@@ -3,13 +3,13 @@ import {Title} from './Title';
 import { HomePageImage } from './Image';
 import './index.css'
 
-function Home({id}) {
+function Home({id, children}) {
     return ( 
         <main id = {id} className = "homepage">
             <NavBar/>
             <article className = "homepage-content-container">
                 <Title/>
-                <HomePageImage/>
+                {children}
             </article>
         </main>
      );

@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .my-homepage-image{
@@ -11,4 +12,18 @@
     object-fit: cover;
     object-position: top;
     mask-image: linear-gradient(black 80%, transparent);
+    z-index: 1;
 }   
+.luminous-effect{
+    background-color: rgba(0, 132, 255, 0.5); 
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    filter: blur(100px); 
+    z-index: 0; 
+    pointer-events: none;
+}
