@@ -18,7 +18,7 @@
 .navbar-item a{
     cursor: pointer;
     color: #fff;
-    font-size:25px;
+    font-size:23px;
     font-weight: 600;
     font-family: 'Raleway';
     text-decoration: none;
@@ -50,13 +50,28 @@
     
 }
 
-/*Mobile*/
-@media (max-width: 400px){
-    .navbar-item a{
-        font-size:14px;
+/*Tablet*/
+@media (min-width: 500px) and (max-width: 950px){
+    .navbar{
+        justify-content: center;
+        margin: 0 auto;
     }
-    .item-large{
-        width: 85px;
+}
+
+/*mobile*/
+@media (max-width: 500px){
+    .navbar{
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .navbar-item a{
+        font-size: 16px;
+    }
+    .navbar-item span{
+        background-color: #fff;
+        height: 2px;
+        width: 20px;
+        opacity: 0.8;
     }
 }
 

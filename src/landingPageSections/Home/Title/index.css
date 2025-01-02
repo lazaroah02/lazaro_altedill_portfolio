@@ -1,5 +1,6 @@
 .homepage-title-container{
     padding-left: 100px;
+    grid-area: title;
 }
 .title-luminous-effect{
     background-color: rgba(0, 132, 255, 0.5); 
@@ -68,4 +69,48 @@
 }
 .homepage-buttons-container :last-child:hover{
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+/*Tablet*/
+@media (max-width: 950px) {
+    .homepage-title-container{
+        padding-left: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .homepage-title{
+        font-size: 50px;
+        line-height: 58.7px;
+    }
+    .homepage-subtitle{
+        font-size: 20px;
+    }
+    .homepage-buttons-container{
+        margin-top: 50px;
+        gap: 20px;
+        justify-content: center;
+    }
+    .homepage-buttons-container a{
+        width: 150px;
+        height: 50px;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 500px) {
+    .homepage-title{
+        font-size: 30px;
+    }
+    .homepage-subtitle{
+        font-size: 18px;
+    }
+    .homepage-buttons-container a{
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .homepage-buttons-container :first-child{
+        width: 123px;
+        height: 45px;
+    }
 }

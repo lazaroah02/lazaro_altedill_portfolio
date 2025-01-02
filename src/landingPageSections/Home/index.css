@@ -10,22 +10,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    grid-template-areas:
+    "title image";
     align-items: center;
 }
 
-/*Mobile*/
-@media (max-width: 600px){
-    .homepage-title{
-        font-size:50px;
-    }
-    .homepage-title span{
-        margin-left: 30px;
-    }
-    .homepage-subtitle{
-        flex-direction: column;
-        gap:5px;
-        font-size: 20px;
-        margin-top: 10px;
+/*Tablet*/
+@media (max-width: 950px){
+    .homepage-content-container{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "image"
+        "title";
     }
 }
+
 
