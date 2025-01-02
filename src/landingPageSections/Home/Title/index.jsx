@@ -2,6 +2,7 @@ import './index.css'
 export function Title() {
   return (
     <section className="homepage-title-container">
+      <div className = "title-luminous-effect"></div>
       <div className="homepage-title">
         I am <span>Lazaro Altedill</span>
       </div>

@@ -1,6 +1,18 @@
 .homepage-title-container{
     padding-left: 100px;
 }
+.title-luminous-effect{
+    background-color: rgba(0, 132, 255, 0.5); 
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    filter: blur(150px); 
+    z-index: 0; 
+    pointer-events: none;
+}
 .homepage-title{
     font-size:100px;
     font-family: 'Raleway';
