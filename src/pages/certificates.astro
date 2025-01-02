@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { certificates } from "../my-info.json";
+import ImagesSlider from "../components/ImagesSlider";
+---
+
+<Layout title="Lazaro Altedill Certificates">
+    <main>
+        <ImagesSlider client:load images = {certificates} imagesMaxWidth={900}/> 
+    </main>
+</Layout>
+
+<style>
+    main{
+        width: 95%;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>

@@ -1,10 +1,10 @@
 {
     "aboutMe": {
-        "title": "Hi, Welcome to my portfolio",
+        "title": "Hi 👋, Welcome to my portfolio",
         "content": "If you can imagine it, you can program it. That phrase changed my life. I'm web full stack developer, who studied computing engineering.  Love building products, passionate about challenges, interested in growth. We have the responsability to build the future with our code"
     },
     "education": {
-        "title": "Education",
+        "title": "Education 🎓",
         "content": {
             "education1": {
                 "title": "Computing Engineering",

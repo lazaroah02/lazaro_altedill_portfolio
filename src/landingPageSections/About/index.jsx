@@ -4,7 +4,7 @@ import SectionNameLabel from '@/components/SectionNameLabel'
 import '../general-pages-styles.css'
 import './index.css'
 
-function About({id, children}) {
+function About({id}) {
     return ( 
         <section id = {id} className = "about-content-container">
             <SectionNameLabel>About</SectionNameLabel>
@@ -25,10 +25,8 @@ function About({id, children}) {
                     title = {education.content.education3.title}
                     content = {education.content.education3.content}
                     />
+                <a className = "see-certificates-button" href = "/certificates">See Certificates</a>    
             </Paragraph>  
-            <div className = "certificates-container">
-                {children}
-            </div>
         </section>
      );
 }

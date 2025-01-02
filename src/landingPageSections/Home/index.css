@@ -2,7 +2,8 @@
     background-color: #1C2326;
     width: 100vw;
     height: 100vh;
-    margin:0 ;
+    margin:0;
+    mask-image: linear-gradient(black 80%, transparent);
 }
 .homepage-content-container{
     color:#fff;
