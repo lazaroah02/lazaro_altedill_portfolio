@@ -2,30 +2,61 @@
     font-family: "Jost";
     src: url('../../assets//fonts/Jost-VariableFont_wght.woff2');
 }
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../../assets//fonts/Raleway-Regular.woff2');
+}
 .navbar{
-    width: 100vw;
+    width: 95vw;
     height: 50px;
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: transparent;
-    padding-top:5px;
+    padding-top:15px;
+    gap:8%;
 }
 
 .navbar-item{
-    width: 20%;
-    text-align: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
 }
 .navbar-item a{
     cursor: pointer;
     color: #fff;
-    font-size:20px;
-    font-family: 'Jost';
+    font-size:25px;
+    font-weight: 600;
+    font-family: 'Raleway';
     text-decoration: none;
+    
 }
 .navbar-item a:hover{
     color:#78D9FC;
+}
+.navbar-item span{
+    background-color: #fff;
+    height: 3px;
+    width: 20px;
+    
+}
+
+.navbar-item:hover span{
+    background-color:#0084FF;
+    animation: underline-grow 0.1s linear forwards;
+}
+
+.navbar-item:hover a{
+    color:#0084FF
+}
+
+@keyframes underline-grow{
+    100%{
+        width: 100%;
+    }
+    
 }
 
 /*Mobile*/
