@@ -6,6 +6,10 @@ export function Title() {
         I am <span>Lazaro Altedill</span>
       </div>
       <div className="homepage-subtitle">Full Stack Web Developer</div>
+      <div className = "homepage-buttons-container">
+        <button>My Work</button>
+        <button>Contanct Me</button>
+      </div>
     </section>
   );
 }
