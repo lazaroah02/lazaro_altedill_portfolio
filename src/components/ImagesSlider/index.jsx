@@ -1,5 +1,5 @@
 import {useNavigateItems} from '@/customHooks/useNavigateItems'
-import {useRef, useState} from 'react';
+import {useRef, useState, useEffect} from 'react';
 import './index.css'
 
 function ImagesSlider({images, imagesMaxWidth = 600}) {
@@ -9,8 +9,8 @@ function ImagesSlider({images, imagesMaxWidth = 600}) {
     const [lastContadorBeforFullScreen, setLastContadorBeforeFullScreen] = useState(0) 
 
     function fullScreen(image) {
-        image.style.cursor = 'zoom-out'
         if (document.fullscreenElement) {
+            image.style.cursor = 'zoom-in'
             document.exitFullscreen();
             setTimeout(() => updateCont(lastContadorBeforFullScreen), 200)
             setTimeout(() =>  {
@@ -18,6 +18,7 @@ function ImagesSlider({images, imagesMaxWidth = 600}) {
             }, 100);
         } else {
           image.requestFullscreen();
+          image.style.cursor = 'zoom-out'
         }
       }
 
@@ -25,7 +26,6 @@ function ImagesSlider({images, imagesMaxWidth = 600}) {
         <div className = "slider-container">
             <div className = "images-container" style = {{maxWidth:`${imagesMaxWidth}px`}} ref = {scrollRef} onScroll = {processScrollChange}>
                 {images.map((img) => <img onClick={(e) => {
-                    console.log(contador)
                     setLastScrollYValue(window.scrollY)
                     setLastContadorBeforeFullScreen(contador)
                     fullScreen(e.target)

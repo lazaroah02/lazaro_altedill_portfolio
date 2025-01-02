@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     margin:0;
-    mask-image: linear-gradient(black 80%, transparent);
+    mask-image: linear-gradient(black 90%, transparent);
 }
 .homepage-content-container{
     color:#fff;
