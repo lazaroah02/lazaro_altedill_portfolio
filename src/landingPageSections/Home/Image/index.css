@@ -1,0 +1,14 @@
+.hompage-image-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-homepage-image{
+    width: 85%;
+    height: 90%;
+    object-fit: cover;
+    object-position: top;
+    mask-image: linear-gradient(black 80%, transparent);
+}   

@@ -1,5 +1,5 @@
 import "./index.css"
-import ContactButtons from "../../components/ContactButtons";
+import ContactButtons from "@/components/ContactButtons";
 
 function Footer() {
     return ( 

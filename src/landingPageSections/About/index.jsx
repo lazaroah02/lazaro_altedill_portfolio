@@ -1,6 +1,6 @@
-import {aboutMe, education} from '../../my-info.json'
-import Paragraph from '../../components/Paragraph'
-import SectionNameLabel from '../../components/SectionNameLabel'
+import {aboutMe, education} from '@/my-info.json'
+import Paragraph from '@/components/Paragraph'
+import SectionNameLabel from '@/components/SectionNameLabel'
 import '../general-pages-styles.css'
 import './index.css'
 

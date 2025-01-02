@@ -1,6 +1,6 @@
-import EmailIcon from '../../assets/mail-icon.svg'
-import GitubIcon from '../../assets/github-icon.svg'
-import LinkedinIcon from '../../assets/linkedin-icon.svg'
+import EmailIcon from '@/assets/icons/mail-icon.svg'
+import GitubIcon from '@/assets/icons/github-icon.svg'
+import LinkedinIcon from '@/assets/icons/linkedin-icon.svg'
 import './index.css'
 
 function ContactButtons() {

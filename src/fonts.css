@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Jost";
+    src: url('./assets/fonts/Jost-VariableFont_wght.woff2');
+}
+@font-face {
+    font-family: "Raleway";
+    src: url('./assets//fonts/Raleway-Regular.woff2');
+}
+@font-face {
+    font-family: 'HindMadurai';
+    src: url('./assets/fonts/HindMadurai-Regular.woff2');
+}
+@font-face {
+    font-family: 'PublicSans';
+    src: url('./assets/fonts/PublicSans-VariableFont_wght.woff2');
+}

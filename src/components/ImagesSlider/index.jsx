@@ -1,4 +1,4 @@
-import {useNavigateItems} from '../../customHooks/useNavigateItems'
+import {useNavigateItems} from '@/customHooks/useNavigateItems'
 import {useRef, useState} from 'react';
 import './index.css'
 

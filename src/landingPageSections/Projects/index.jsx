@@ -1,9 +1,9 @@
-import { projects } from "../../my-info.json";
-import ProjectComponent from "../../components/ProjectComponent";
-import SectionNameLabel from "../../components/SectionNameLabel";
+import { projects } from "@/my-info.json";
+import ProjectComponent from "@/components/ProjectComponent";
+import SectionNameLabel from "@/components/SectionNameLabel";
 import "../general-pages-styles.css";
 import "./index.css";
-import Collapsable from "../../components/Collapsable.tsx";
+import Collapsable from "@/components/Collapsable.tsx";
 
 function Projects({ id }) {
   return (

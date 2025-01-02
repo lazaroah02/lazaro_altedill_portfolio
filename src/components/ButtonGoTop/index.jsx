@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import './index.css'
-import UpArrow from '../../assets/up-arrow.svg'
+import UpArrow from '@/assets/icons/up-arrow.svg'
 
 export default function ButtonGoTop(){
     const [showButtonScrollTop, setShowButtonScrollTop] = useState(false)

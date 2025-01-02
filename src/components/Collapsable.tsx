@@ -1,7 +1,6 @@
 import { useState, type CSSProperties, type ReactNode } from "react";
-import UpArrow from "../assets/up-arrow.svg";
+import UpArrow from "@/assets/icons/up-arrow.svg";
 import { navigate } from "astro:transitions/client";
-import type { CSSProperty } from "astro/types";
 
 function Collapsable({
   children,

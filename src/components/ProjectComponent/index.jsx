@@ -1,4 +1,4 @@
-import ImagesSlider from '../ImagesSlider';
+import ImagesSlider from '@/components/ImagesSlider';
 import './index.css'
 
 function ProjectComponent({projectName, images, projectDescription, link, tecnologies}) {

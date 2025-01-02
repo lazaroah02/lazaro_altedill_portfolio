@@ -1,7 +1,7 @@
-import { skills } from '../../my-info.json'
+import { skills } from '@/my-info.json'
 import './index.css'
 import '../general-pages-styles.css'
-import SectionNameLabel from '../../components/SectionNameLabel.jsx';
+import SectionNameLabel from '@/components/SectionNameLabel.jsx';
 
 function Skills({id}) {
     return ( 

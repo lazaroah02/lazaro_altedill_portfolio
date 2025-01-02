@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import {debounce} from '../utils/debounce'
+import {debounce} from '@/utils/debounce'
 
 export function useNavigateItems(reference){
     /*This Hook recive an reference of an element with scroll and a list of items inside of the element. 

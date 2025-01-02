@@ -1,11 +1,4 @@
-@font-face {
-    font-family: 'Jost';
-    src: url('../../assets/fonts/Jost-VariableFont_wght.woff2');
-}
-@font-face {
-    font-family: 'HindMadurai';
-    src: url('../../assets/fonts/HindMadurai-Regular.woff2');
-}
+
 .paragraph{
     padding-top: 50px;
     color:#fff;

@@ -1,20 +1,16 @@
-import NavBar from '../../components/NavBar'
-import ContactButtons from '../../components/ContactButtons';
+import NavBar from '@/components/NavBar'
+import {Title} from './Title';
+import { HomePageImage } from './Image';
 import './index.css'
 
 function Home({id}) {
     return ( 
-        <main className = "home-page-background">
-            <div id = {id} className = "home-page">
-                <NavBar/>
-                <section className = "content-homepage-container">
-                    <div className = "homepage-title">LAZARO <span>A.</span></div>
-                    <div className = "homepage-subtitle">
-                        <p>Full Stack Developer</p>
-                    </div>
-                    <div className = "homepage-frase">{"< Build the future with your code />"}</div>
-                </section>
-            </div>
+        <main id = {id} className = "homepage">
+            <NavBar/>
+            <article className = "homepage-content-container">
+                <Title/>
+                <HomePageImage/>
+            </article>
         </main>
      );
 }
