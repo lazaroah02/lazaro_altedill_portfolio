@@ -20,7 +20,7 @@ export function useNavigateItems(reference){
                 behavior:"smooth",
             })
         }
-        //de lo contrario es pq el contador es igual al numero de elementos por lo que lo volvemos a poner en su valor inicial
+        // Otherwise, the counter is equal to the number of items, so we reset it to its initial value
         else{ 
             cont = -1
             setContador(cont)
@@ -28,21 +28,22 @@ export function useNavigateItems(reference){
         }         
     }
 
-    //function to set the index of the element to see
-    function updateCont(index){
-        cont = index - 1
-        setContador(cont)
-        seeCurrentItem()
+    // Function to set the index of the element to view
+    function updateCont(index) {
+        cont = index - 1;
+        setContador(cont);
+        seeCurrentItem();
     }
-    
-    //function to update the position of the navigation by scrolling the images
-    function updateContByScroll(){
-        if(reference.current !== undefined && reference.current !== null){
-            updateCont(Math.round(reference.current.scrollLeft/reference.current.offsetWidth))
-        }
-      }
-      //function to update the navigation status when the user make scroll
-      const processScrollChange = debounce(() => updateContByScroll(), 100);
 
-    return {contador, updateCont, processScrollChange}
+    // Function to update the navigation position by scrolling the images
+    function updateContByScroll() {
+        if (reference.current !== undefined && reference.current !== null) {
+            updateCont(Math.round(reference.current.scrollLeft / reference.current.offsetWidth));
+        }
+    }
+
+    // Function to update the navigation status when the user scrolls
+    const processScrollChange = debounce(() => updateContByScroll(), 100);
+
+    return { contador, updateCont, processScrollChange };
 }
