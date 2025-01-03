@@ -1,46 +1,43 @@
-import {useNavigateItems} from '@/customHooks/useNavigateItems'
-import {useRef, useState, useEffect} from 'react';
-import './index.css'
+import { useNavigateItems } from "@/customHooks/useNavigateItems";
+import { useRef, useEffect } from "react";
+import mediumZoom from "medium-zoom";
+import "./index.css";
 
-function ImagesSlider({images, imagesMaxWidth = 600}) {
-    const scrollRef = useRef()
-    const [lastScrollYValue, setLastScrollYValue] = useState(0)
-    const {contador, updateCont, processScrollChange} = useNavigateItems(scrollRef)
-    const [lastContadorBeforFullScreen, setLastContadorBeforeFullScreen] = useState(0) 
+function ImagesSlider({ images, imagesMaxWidth = 600 }) {
+  const scrollRef = useRef();
+  const { contador, updateCont, processScrollChange } =
+    useNavigateItems(scrollRef);
+  useEffect(() => {
+    mediumZoom("[data-zoomable]");
+  }, []);
 
-    function fullScreen(image) {
-        if (document.fullscreenElement) {
-            image.style.cursor = 'zoom-in'
-            document.exitFullscreen();
-            setTimeout(() => updateCont(lastContadorBeforFullScreen), 200)
-            setTimeout(() =>  {
-                window.scrollTo(0, lastScrollYValue)
-            }, 100);
-        } else {
-          image.requestFullscreen();
-          image.style.cursor = 'zoom-out'
-        }
-      }
-
-    return ( 
-        <div className = "slider-container">
-            <div className = "images-container" style = {{maxWidth:`${imagesMaxWidth}px`}} ref = {scrollRef} onScroll = {processScrollChange}>
-                {images.map((img) => <img onClick={(e) => {
-                    setLastScrollYValue(window.scrollY)
-                    setLastContadorBeforeFullScreen(contador)
-                    fullScreen(e.target)
-                    }} key = {img} alt = "Project-Image" src = {img}/>)}
-            </div>
-            <div className = "images-navigator">
-                {images.map((img, index) => 
-                    <div 
-                        key = {index + "point"} 
-                        className = {contador === index?"images-navigator-point point-active":"images-navigator-point"} 
-                        onClick={() => updateCont(index)}>
-                    </div>)}
-            </div>
-        </div>
-     );
+  return (
+    <div className="slider-container">
+      <div
+        className="images-container"
+        style={{ maxWidth: `${imagesMaxWidth}px` }}
+        ref={scrollRef}
+        onScroll={processScrollChange}
+      >
+        {images.map((img) => (
+          <img key={img} alt="Project-Image" src={img} data-zoomable="true" />
+        ))}
+      </div>
+      <div className="images-navigator">
+        {images.map((img, index) => (
+          <div
+            key={index + "point"}
+            className={
+              contador === index
+                ? "images-navigator-point point-active"
+                : "images-navigator-point"
+            }
+            onClick={() => updateCont(index)}
+          ></div>
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default ImagesSlider;
