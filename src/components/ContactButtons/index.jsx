@@ -8,15 +8,15 @@ function ContactButtons() {
         <main className = "contact-buttons-container">
             <a className = "contact-button" href = "mailto:lazaroaltedill@gmail.com" target = "_blank">
                 <img alt = "email" src = {EmailIcon.src}/>
-                <p>Email</p>
+                <p translate='no'>Email</p>
             </a>
             <a className = "contact-button" href = "https://github.com/lazaroah02" target = "_blank">
                 <img alt = "github icon" src = {GitubIcon.src}/>
-                <p>Github</p>
+                <p translate='no'>Github</p>
             </a>
             <a className = "contact-button" href = "https://www.linkedin.com/in/lazaro-altedill-546453231" target = "_blank">
                 <img alt = "linkedin-icon" src = {LinkedinIcon.src}/>
-                <p>Linkedin</p>
+                <p translate='no'>Linkedin</p>
             </a>
         </main>
      );
