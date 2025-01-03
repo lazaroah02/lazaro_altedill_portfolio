@@ -24,8 +24,9 @@ function About({id}) {
                     type = {'sub-paragraph'}
                     title = {education.content.education3.title}
                     content = {education.content.education3.content}
-                    />
-                <a className = "see-certificates-button" href = "/certificates">See Certificates</a>    
+                >
+                    . Here some <a className = "see-certificates-button" href = "/certificates">Certificates</a> that I've obtained.   
+                </Paragraph>
             </Paragraph>  
         </section>
      );

@@ -2,10 +2,18 @@
     padding-top: 30px;
 }
 .see-certificates-button{
-    color:#fff;
+    display: inline;
+    white-space: nowrap;
+    color:#ffffffbf;
     width: fit-content;
-}
-.see-certificates-button:hover{
-    color:#0084FF
+    color:#0084FF;
+    text-decoration: none;
 }
 
+.see-certificates-button:visited{
+    text-decoration: none;
+}
+
+.see-certificates-button:active{
+    text-decoration: none;
+}

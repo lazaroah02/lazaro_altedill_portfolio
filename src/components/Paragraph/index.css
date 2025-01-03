@@ -22,28 +22,52 @@
     margin:0 auto;
 }
 .sub-paragraph .paragraph-title{
-    font-size: 18px;
+    font-size: 20px;
+    color:#ffffffbf
 }
 
 .paragraph-title{
     width: 347px;
     text-align: start;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Jost';
+    color:#0084FF
 }
 .paragraph-content{
     font-family: 'HindMadurai';
-    font-size: 16px;
+    font-size: 18px;
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    color:#ffffffbf;
+    display: inline;
 }
+
+/*Tablet*/
 @media (max-width: 1000px){
     .paragraph{
         width: 90%;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 600px){
+    .paragraph{
+        width: 90%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .paragraph-title{
+        width: 100%;
+        text-align: start;
+        font-size: 20px;
+    }
+    .paragraph-content{
+        font-size: 16px;
     }
 }
