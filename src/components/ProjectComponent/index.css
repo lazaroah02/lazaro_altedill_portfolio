@@ -37,6 +37,7 @@
     padding-left: 15px;
     gap:20px;
     font-family: 'HindMadurai';
+    font-size: 18px;
 }
 .project-description-text span{
     font-size: 20px;
@@ -110,5 +111,8 @@
     }
     .visit-site-button{
         margin-top: 20px;
+    }
+    .project-description-text{
+        font-size: 16px;
     }
 }
