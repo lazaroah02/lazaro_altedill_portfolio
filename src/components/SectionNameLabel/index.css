@@ -13,18 +13,5 @@
     background-color: rgba(255, 255, 255, 0.2);
     font-family: 'Jost';
     text-align: center;
-
-    animation: show-up-from-right auto linear both;
-    animation-timeline: view();
-    animation-range:0 200px;
-}
-
-@keyframes show-up-from-right {
-    0%{
-        transform: translateX(100px);
-    }
-    100%{
-        transform: translateX(0);
-    }
 }
 
