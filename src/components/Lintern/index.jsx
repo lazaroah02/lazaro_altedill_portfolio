@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import './index.css';
+import { isMobile } from '@/utils/isMobile';
 
 export function Lintern() {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -37,18 +38,20 @@ export function Lintern() {
     };
 
     useEffect(() => {
-        const homePageReference = document.getElementById('home');
-        homePageReference.addEventListener('mousemove', handleMouseMove);
-        homePageReference.addEventListener('mouseleave', handleStopAnimation);
-        homePageReference.addEventListener('mouseenter', handleStartAnimation);
-        requestRef.current = requestAnimationFrame(animateLintern);
-        return () => {
-            homePageReference.removeEventListener('mousemove', handleMouseMove);
-            homePageReference.removeEventListener('mouseleave', handleStopAnimation);
-            homePageReference.removeEventListener('mouseenter', handleStartAnimation);
-            cancelAnimationFrame(requestRef.current);
-        };
+        if(isMobile() === false){
+            const homePageReference = document.getElementById('home');
+            homePageReference.addEventListener('mousemove', handleMouseMove);
+            homePageReference.addEventListener('mouseleave', handleStopAnimation);
+            homePageReference.addEventListener('mouseenter', handleStartAnimation);
+            requestRef.current = requestAnimationFrame(animateLintern);
+            return () => {
+                homePageReference.removeEventListener('mousemove', handleMouseMove);
+                homePageReference.removeEventListener('mouseleave', handleStopAnimation);
+                homePageReference.removeEventListener('mouseenter', handleStartAnimation);
+                cancelAnimationFrame(requestRef.current);
+            };
+        }
     }, [mousePosition]);
 
-    return <div ref={linternRef} className="lintern" />;
+    return stopLintern?null: <div ref={linternRef} className="lintern" />;
 }
