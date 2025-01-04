@@ -39,6 +39,10 @@
     border: 1px solid #fff;
     border-radius: 100%;
     cursor: pointer;
+    transition: transform 0.1s linear;
+}
+.images-navigator-point:hover{
+    transform: scale(1.1);
 }
 .point-active{
     background-color:#fff;
