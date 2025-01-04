@@ -1,6 +1,7 @@
 import { useState, type ReactNode } from "react";
 import UpArrow from "@/assets/icons/up-arrow-white.svg";
 import { navigate } from "astro:transitions/client";
+import './index.css'
 
 function Collapsable({
   children,
@@ -11,7 +12,7 @@ function Collapsable({
 }) {
   const [collapsed, setCollapsed] = useState(true);
   return (
-    <section style={styles.container}>
+    <section className = "collapsible">
       <div
         style={{
           overflowY: "hidden",
@@ -21,7 +22,7 @@ function Collapsable({
         {children}
       </div>
       <button
-        style={styles.button}
+        className = "collapsible-button"
         onClick={() => {
           navigate("#projects");
           setCollapsed(!collapsed);
@@ -32,32 +33,10 @@ function Collapsable({
           alt="Up Arrow"
           style={collapsed ? { rotate: "180deg" } : null}
         />
-        {collapsed ? "More Projects" : "Less"}
+        <span>{collapsed ? "More Projects" : "Less"}</span>
       </button>
     </section>
   );
 }
 
 export default Collapsable;
-
-const styles = {
-  container: {
-    display: "flex",
-    flexDirection: "column",
-    gap: "20px",
-  },
-  button: {
-    minWidth:"60px",
-    alignSelf: "center",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    cursor: "pointer",
-    backgroundColor: 'rgba(255, 255, 255, 0.1)',
-    color:"#fff",
-    border:'1px solid #fff',
-    borderRadius:"15px",
-    fontFamily:"Raleway",
-    padding:"5px 15px 5px 15px",
-  },
-};
