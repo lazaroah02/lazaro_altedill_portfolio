@@ -1,0 +1,10 @@
+.lintern{
+    background-color: #0084FF; 
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(40px); 
+    z-index: 1; 
+    pointer-events: none;
+}

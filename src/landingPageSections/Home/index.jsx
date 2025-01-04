@@ -1,6 +1,5 @@
 import NavBar from '@/components/NavBar'
 import {Title} from './Title';
-import { HomePageImage } from './Image';
 import './index.css'
 
 function Home({id, children}) {

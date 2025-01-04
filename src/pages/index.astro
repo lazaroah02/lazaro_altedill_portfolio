@@ -8,11 +8,13 @@ import Footer from "../landingPageSections/Footer";
 import ButtonGoTop from "../components/ButtonGoTop";
 import { HomePageImage } from "@/landingPageSections/Home/Image";
 import {Contact} from '@/landingPageSections/Contact'
+import {Lintern} from '@/components/Lintern'
 ---
 <Layout title = "Lazaro Altedill">
 	<ButtonGoTop client:only/>
 	<Home id = "home">
 		<HomePageImage client:load/>
+		<Lintern client:load/>
 	</Home>
 	<About id = "about"/>
 	<Skills id = "skills"/>
