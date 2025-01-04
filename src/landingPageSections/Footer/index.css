@@ -8,3 +8,10 @@
     margin: 0 auto;
     padding-left: 20px;
 }
+
+.footer-phrase{
+    color:#ffffffbb;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Raleway';
+}

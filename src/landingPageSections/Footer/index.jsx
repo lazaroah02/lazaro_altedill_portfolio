@@ -6,6 +6,7 @@ function Footer({id}) {
         <section className = "footer-section" id = {id}>
             <div className = "footer-contact-buttons-container">
                 <ContactButtons/>
+                <div className = "footer-phrase">{"<Build the Future with your code/>"}</div>
             </div>
         </section>
      );
