@@ -19,7 +19,13 @@
     cursor:pointer;
     text-decoration: none;
 }
+.contact-button img{
+    transition: transform 0.1s linear;
+}
 .contact-button p{
     margin-top:3px;
     font-size:16px;
+}
+.contact-button:hover img{
+    transform: scale(1.2);
 }
