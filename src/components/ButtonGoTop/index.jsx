@@ -21,7 +21,9 @@ export default function ButtonGoTop(){
     return(
         <div>
             {showButtonScrollTop?
-            <button className = 'button-scroll-top' onClick={() => goTop()}><img alt = {"up arrow"} src = {UpArrow.src}/></button>
+            <button className = 'button-scroll-top' onClick={() => goTop()}>
+                <img alt = {"up arrow"} src = {UpArrow.src}/>
+            </button>
             :null}
         </div>
     )

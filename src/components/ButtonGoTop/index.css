@@ -14,6 +14,14 @@
     justify-content: center;
 }
 
+.button-scroll-top img{
+    transition: transform 0.2s ease;
+}
+
+.button-scroll-top:hover img{
+    transform: scale(1.4);
+}
+
 @media (max-width:500px) {
     .button-scroll-top{
         right: 20px;
