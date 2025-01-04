@@ -1,7 +1,7 @@
 .skills-content-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap:50px;
+    gap:40px 0px;
     align-items: center;
     width: 80%;
     margin:0 auto;
@@ -12,12 +12,27 @@
     display:flex;
     justify-content: center;
     align-items: center;
+
+    animation: fade-in auto linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 20%
 }
 
 .skills-content-container img{
     width: 145px;
     border-radius: 10px;
     margin: 0 auto;
+}
+
+@keyframes fade-in{
+    0%{
+        opacity:0;
+        transform: scale(0.5);
+    }
+    100%{
+        opacity:1;
+        transform: scale(1);
+    }
 }
 
 /*Mobile and tablet*/
