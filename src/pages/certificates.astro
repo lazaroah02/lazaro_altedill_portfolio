@@ -6,17 +6,19 @@ import ImagesSlider from "../components/ImagesSlider";
 
 <Layout title="Lazaro Altedill Certificates">
     <main>
-        <ImagesSlider client:load images = {certificates} imagesMaxWidth={900}/> 
+        <section>
+            <ImagesSlider client:load images = {certificates} imagesMaxWidth={900}/> 
+        </section>
     </main>
 </Layout>
 
 <style>
     main{
-        width: 95%;
-        margin: 0 auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>

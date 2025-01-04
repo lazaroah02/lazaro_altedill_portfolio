@@ -14,7 +14,6 @@
     "@types/react": "^18.2.34",
     "@types/react-dom": "^18.2.14",
     "astro": "^3.4.3",
-    "medium-zoom": "^1.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
