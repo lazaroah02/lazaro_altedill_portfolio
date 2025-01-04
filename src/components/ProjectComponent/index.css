@@ -63,6 +63,11 @@
     justify-content: center;
     align-items: center;
     font-family: 'Jost';
+    transition: background-color, transform 0.1s ease-in-out;
+}
+.visit-site-button:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
 }
 .tecnologies-container{
     display: flex;
