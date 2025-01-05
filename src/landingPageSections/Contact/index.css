@@ -17,3 +17,17 @@
     font-family: 'Raleway';
     font-size: 20px;
 }
+
+/*Tablet*/
+@media (max-width:900px){
+    .contact-card{
+        width: 60%;
+    }
+}
+
+/*Mobile*/
+@media (max-width:600px){
+    .contact-card{
+        width: 90%;
+    }
+}
