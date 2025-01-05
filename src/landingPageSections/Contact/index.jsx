@@ -1,10 +1,11 @@
 import './index.css'
-import SectionNameLabel from '@/components/SectionNameLabel';
+import ContactButtons from '@/components/ContactButtons';
 
 export function Contact({id}) {
     return ( 
-        <section className = "contact-section" id = {id}>
-            <SectionNameLabel>Contact</SectionNameLabel>
+        <section className = "contact-card" id = {id}>
+            <header>Contact Me</header>
+            <ContactButtons/>
         </section>
      );
 }
