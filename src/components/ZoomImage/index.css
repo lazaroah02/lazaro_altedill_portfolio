@@ -13,7 +13,7 @@
     height: 100%;
     object-fit: contain;
     cursor:zoom-out;
-    animation: grow 0.5s ease
+    animation: grow 0.3s ease
 }
 .zoomed-image.hide{
     animation:hide 0.3s ease
