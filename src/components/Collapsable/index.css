@@ -4,7 +4,7 @@
     gap: 20px;
     background-color: #1C242F;
     margin-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     box-shadow: 0px 0px 50px black;
 }
 .collapsible-button {
@@ -17,7 +17,7 @@
     cursor:pointer;
     background-color: rgba(255, 255, 255, 0.1);
     color:#fff;
-    border:1px solid #fff;
+    border:0;
     border-radius:15px;
     font-family:"Raleway";
     padding:5px 15px 5px 15px;
