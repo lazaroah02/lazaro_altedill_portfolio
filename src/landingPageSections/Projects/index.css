@@ -1,4 +1,6 @@
 .projects-content-container{
     margin-top: 50px;
     padding-top: 30px;
+    position: relative;
+    z-index: 1;
 }

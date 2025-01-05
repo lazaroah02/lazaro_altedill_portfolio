@@ -9,13 +9,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:50px
+    gap:50px;
+    z-index: 0;
+
+    animation: slide-from-top auto linear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 20%
 }
 
 .contact-card header{
     color:#fff;
     font-family: 'Raleway';
     font-size: 20px;
+}
+
+@keyframes slide-from-top{
+    0%{
+        transform: translateY(-400px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 /*Tablet*/
