@@ -1,17 +1,15 @@
 .footer-section{
     width: 100%;
-    height: auto;
+    height: 100px;
     margin-top: 100px;
-}
-
-.footer-contact-buttons-container{
-    margin: 0 auto;
-    padding-left: 20px;
+    background-color: #1C242F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-phrase{
     color:#ffffffbb;
     text-align: center;
-    padding-bottom: 10px;
     font-family: 'Raleway';
 }
