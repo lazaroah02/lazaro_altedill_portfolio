@@ -1,27 +1,16 @@
 import { useNavigateItems } from "@/customHooks/useNavigateItems";
 import { useRef, useState } from "react";
+import { ZoomImage } from "../ZoomImage";
 import "./index.css";
-import CloseIcon from "@/assets/icons/close-icon.svg"
 
 function ImagesSlider({ images, imagesMaxWidth = 600 }) {
   const scrollRef = useRef();
-  const { contador, updateCont, processScrollChange } =
-    useNavigateItems(scrollRef);
+  const { contador, updateCont, processScrollChange } = useNavigateItems(scrollRef);
   const [imageToZoom, setImageToZoom] = useState(null);
+
   return (
     <div className="slider-container">
-      {imageToZoom ? (
-        <div className="zoomed-image-container">
-            <button className = "close-zoomed-image-button" onClick={() => setImageToZoom(null)}>
-                <img src = {CloseIcon.src} alt = "Close Icon"/>
-            </button>
-          <img
-            src={imageToZoom.src}
-            className="zoomed-image"
-            onClick={() => setImageToZoom(null)}
-          />
-        </div>
-      ) : null}
+      <ZoomImage imageToZoom={imageToZoom} setImageToZoom={setImageToZoom}/>
       <div
         className="images-container"
         style={{ maxWidth: `${imagesMaxWidth}px` }}
