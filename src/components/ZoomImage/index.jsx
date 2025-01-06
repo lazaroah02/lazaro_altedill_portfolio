@@ -12,7 +12,8 @@ export function ZoomImage({imageToZoom, setImageToZoom}) {
             setImageToZoom(null)
             setShowHideAnimation(false)
             //show again the scroll to top button
-            document.getElementById('button-scroll-top').style.display = 'block';
+            const buttonGoTop = document.getElementById('button-scroll-top')
+            buttonGoTop? buttonGoTop.style.display = 'block': null
         }, 
           250 //sincronize with the animation duration of .hide class in ./index.css - 50
         )
@@ -33,7 +34,8 @@ export function ZoomImage({imageToZoom, setImageToZoom}) {
             document.documentElement.style.setProperty('--image-y', `${translateY}px`);
 
             //hide the scroll to top button to avoid it to be shown over the maximized image
-            document.getElementById('button-scroll-top').style.display = 'none';
+            const buttonGoTop = document.getElementById('button-scroll-top')
+            buttonGoTop? buttonGoTop.style.display = 'none': null
         }
     }, [imageToZoom]);
     
