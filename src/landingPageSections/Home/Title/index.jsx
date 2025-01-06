@@ -3,10 +3,10 @@ export function Title() {
   return (
     <section className="homepage-title-container">
       <div className = "title-luminous-effect"></div>
-      <div className="homepage-title">
+      <h1 className="homepage-title">
         I am <span>Lazaro Altedill</span>
-      </div>
-      <div className="homepage-subtitle">Full Stack Web Developer</div>
+      </h1>
+      <h3 className="homepage-subtitle">Full Stack Web Developer</h3>
       <nav className = "homepage-buttons-container">
         <a href = "#projects">My Work</a>
         <a href = "#footer">Contanct Me</a>

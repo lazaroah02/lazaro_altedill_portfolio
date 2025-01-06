@@ -19,6 +19,7 @@
     font-family: 'Raleway';
     font-weight: 500;
     line-height: 117.4px;
+    margin: 0;
 }
 .homepage-title span{
     color:#0084FF;
@@ -30,9 +31,11 @@
     font-family: 'PublicSans';
     font-style: italic;
     opacity: 0.8;
+    margin: 0;
+    margin-top: 10px;
 }
 .homepage-buttons-container{
-    margin-top: 100px;
+    margin-top: 90px;
     display: flex;
     flex-direction: row;
     gap:50px
