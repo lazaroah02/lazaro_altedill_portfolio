@@ -30,7 +30,7 @@ function ProjectComponent({
         </section>
         <div className="project-description-buttons">
           {link !== "" ? (
-            <a className="visit-site-button" href={link} target="_blank">
+            <a className="visit-site-button" title = {`Visit ${projectName} site`} href={link} target="_blank" rel="noopener noreferrer">
               Visit site
             </a>
           ) : null}

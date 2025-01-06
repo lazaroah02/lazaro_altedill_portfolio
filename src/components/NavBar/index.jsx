@@ -2,7 +2,7 @@ import "./index.css";
 
 function NavBar() {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <div className="navbar-item">
         <a href = "#home">
           Home
@@ -27,7 +27,7 @@ function NavBar() {
         </a>
         <span></span>
       </div>
-    </div>
+    </nav>
   );
 }
 

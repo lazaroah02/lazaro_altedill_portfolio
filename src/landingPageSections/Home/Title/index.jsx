@@ -7,10 +7,10 @@ export function Title() {
         I am <span>Lazaro Altedill</span>
       </div>
       <div className="homepage-subtitle">Full Stack Web Developer</div>
-      <div className = "homepage-buttons-container">
+      <nav className = "homepage-buttons-container">
         <a href = "#projects">My Work</a>
         <a href = "#footer">Contanct Me</a>
-      </div>
+      </nav>
     </section>
   );
 }

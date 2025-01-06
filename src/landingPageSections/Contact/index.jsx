@@ -6,6 +6,7 @@ export function Contact({id}) {
         <section className = "contact-card" id = {id}>
             <header>Contact Me</header>
             <ContactButtons/>
+            <footer>lazaroaltedill@gmail.com</footer>
         </section>
      );
 }

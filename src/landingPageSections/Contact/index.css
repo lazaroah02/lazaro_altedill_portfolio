@@ -23,6 +23,13 @@
     font-size: 20px;
 }
 
+.contact-card footer{
+    color:#fff;
+    font-family: 'Raleway';
+    font-size: 16px;
+    margin-top: -20px;
+}
+
 @keyframes slide-from-top{
     0%{
         transform: translateY(-400px);
