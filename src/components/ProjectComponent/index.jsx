@@ -22,7 +22,7 @@ function ProjectComponent({
               <img
                 title={tec.name}
                 key={tec.img}
-                alt="tecnologie"
+                alt={tec.name}
                 src={tec.img}
               />
             ))}

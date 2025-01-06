@@ -32,7 +32,7 @@ export function ZoomImage({imageToZoom, setImageToZoom}) {
             document.documentElement.style.setProperty('--image-x', `${translateX}px`);
             document.documentElement.style.setProperty('--image-y', `${translateY}px`);
 
-            //hide the scroll to top button to avoid it to be shown over the mazimized image
+            //hide the scroll to top button to avoid it to be shown over the maximized image
             document.getElementById('button-scroll-top').style.display = 'none';
         }
     }, [imageToZoom]);

@@ -20,7 +20,7 @@ function ImagesSlider({ images, imagesMaxWidth = 600 }) {
         {images.map((img) => (
           <img
             key={img}
-            alt="Project-Image"
+            alt="Software Project Image"
             src={img}
             onClick={(e) => setImageToZoom(e.target)}
           />

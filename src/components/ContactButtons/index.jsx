@@ -7,7 +7,7 @@ function ContactButtons() {
     return ( 
         <main className = "contact-buttons-container">
             <a className = "contact-button" href = "mailto:lazaroaltedill@gmail.com" target = "_blank">
-                <img alt = "email" src = {EmailIcon.src}/>
+                <img alt = "email icon" src = {EmailIcon.src}/>
                 <p translate='no'>Email</p>
             </a>
             <a className = "contact-button" href = "https://github.com/lazaroah02" target = "_blank">
