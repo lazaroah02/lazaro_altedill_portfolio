@@ -10,7 +10,7 @@ function Skills({id}) {
             <section className = "skills-content-container">
                 {skills.map((skill, index) => 
                     <div key = {index}>
-                        <img alt = {skill.name} src = {skill.url} width={145}/>
+                        <img alt = {skill.name} src = {skill.url} width={150} height={150}/>
                     </div>
                 )}
             </section>
