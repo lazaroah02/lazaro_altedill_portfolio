@@ -14,9 +14,9 @@ function Collapsable({
   return (
     <section className = "collapsible">
       <div
+        className={`collapsible-content ${collapsed ? "collapsed" : "expanded"}`}
         style={{
-          overflowY: "hidden",
-          height: `${collapsed ? height : "auto"}`,
+          maxHeight: `${collapsed ? height : "5000px"}`, // Use a large value for expanded state
         }}
       >
         {children}
