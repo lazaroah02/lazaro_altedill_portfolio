@@ -23,6 +23,7 @@ function ImagesSlider({ images, imagesMaxWidth = 600 }) {
             alt="Software Project Image"
             src={img}
             onClick={(e) => setImageToZoom(e.target)}
+            width={600} height={300}
           />
         ))}
       </div>

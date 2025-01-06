@@ -24,6 +24,7 @@ function ProjectComponent({
                 key={tec.img}
                 alt={tec.name}
                 src={tec.img}
+                width={30} height={30}
               />
             ))}
           </div>

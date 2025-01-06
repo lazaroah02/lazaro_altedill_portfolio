@@ -41,13 +41,21 @@ export function ZoomImage({imageToZoom, setImageToZoom}) {
         imageToZoom ? (
             <div className="zoomed-image-container">
                 <button className = "close-zoomed-image-button" onClick={minimizeImage}>
-                    <img className = {showHideAnimation?'hide-animation':null} src = {CloseIcon.src} alt = "Close Icon"/>
+                    <img 
+                      className = {showHideAnimation?'hide-animation':null} 
+                      src = {CloseIcon.src} 
+                      alt = "Close Icon" 
+                      width={24} 
+                      height={24}
+                      />
                 </button>
               <img
                 src={imageToZoom.src}
                 className = {`zoomed-image ${showHideAnimation?'hide':''}`}
                 onClick={minimizeImage}
                 alt = 'Zoomed Image'
+                width={1000}
+                height={700}
               />
             </div>
           ) : null

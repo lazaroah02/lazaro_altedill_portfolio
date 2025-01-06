@@ -32,6 +32,7 @@ function Collapsable({
           src={UpArrow.src}
           alt="Up Arrow"
           style={collapsed ? { rotate: "180deg" } : null}
+          width={24} height={24}
         />
         <span>{collapsed ? "More Projects" : "Less"}</span>
       </button>
