@@ -1,5 +1,5 @@
 import CloseIcon from "@/assets/icons/close-icon.svg"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import './index.css'
 
 export function ZoomImage({imageToZoom, setImageToZoom}) {
@@ -16,6 +16,22 @@ export function ZoomImage({imageToZoom, setImageToZoom}) {
         )
       }
     
+    useEffect(() => {
+        // Define CSS variables to translate the image in the animation hide and grow in ./index.css
+        if(imageToZoom){
+            const rect = imageToZoom.getBoundingClientRect();
+            const centerX = rect.left + rect.width / 2;
+            const centerY = rect.top + rect.height / 2;
+            const viewportWidth = window.innerWidth;
+            const viewportHeight = window.innerHeight;
+            const translateX = centerX - viewportWidth / 2;
+            const translateY = centerY - viewportHeight / 2;
+
+            document.documentElement.style.setProperty('--image-x', `${translateX}px`);
+            document.documentElement.style.setProperty('--image-y', `${translateY}px`);
+        }
+    }, [imageToZoom]);
+    
     return ( 
         imageToZoom ? (
             <div className="zoomed-image-container">
@@ -26,6 +42,7 @@ export function ZoomImage({imageToZoom, setImageToZoom}) {
                 src={imageToZoom.src}
                 className = {`zoomed-image ${showHideAnimation?'hide':''}`}
                 onClick={minimizeImage}
+                alt = 'Zoomed Image'
               />
             </div>
           ) : null

@@ -46,10 +46,10 @@
 
 @keyframes grow {
     from{
-        transform: scale(0.1)
+        transform: translate(var(--image-x), var(--image-y)) scale(0.45) 
     }
     to{
-        transform: scale(1);
+        transform: scale(1) translate(0px, 0px);
     }
 }
 
@@ -58,7 +58,7 @@
         transform: scale(1)
     }
     to{
-        transform: scale(0.11);
+        transform: translate(var(--image-x), var(--image-y)) scale(0.45) 
     }
 }
 
