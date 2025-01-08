@@ -1,8 +1,8 @@
 import CloseIcon from "@/assets/icons/close-icon.svg"
-import { useState, useEffect } from "react";
+import { useState, useEffect, memo } from "react";
 import './index.css'
 
-export function ZoomImage({imageToZoom, setImageToZoom}) {
+const ZoomImage = memo(function ZoomImage({imageToZoom, setImageToZoom}) {
     const [showHideAnimation, setShowHideAnimation] = useState(false)
 
     function minimizeImage(){
@@ -62,5 +62,6 @@ export function ZoomImage({imageToZoom, setImageToZoom}) {
             </div>
           ) : null
      );
-}
+})
 
+export default ZoomImage

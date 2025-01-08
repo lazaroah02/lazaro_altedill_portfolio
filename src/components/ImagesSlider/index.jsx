@@ -1,6 +1,6 @@
 import { useNavigateItems } from "@/customHooks/useNavigateItems";
 import { useRef, useState } from "react";
-import { ZoomImage } from "../ZoomImage";
+import ZoomImage from "../ZoomImage";
 import "./index.css";
 
 function ImagesSlider({ images, imagesMaxWidth = 600 }) {
