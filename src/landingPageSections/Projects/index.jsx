@@ -30,14 +30,6 @@ function Projects({ id }) {
         />
 
         <ProjectComponent
-            projectName={projects.greennotes.name}
-            images={projects.greennotes.images}
-            link={projects.greennotes.link}
-            projectDescription={projects.greennotes.description}
-            tecnologies={projects.greennotes.tecnologies}
-        />
-
-        <ProjectComponent
             projectName={projects.neonato.name}
             images={projects.neonato.images}
             link={projects.neonato.link}
@@ -51,14 +43,6 @@ function Projects({ id }) {
             link={projects.biodigestion.link}
             projectDescription={projects.biodigestion.description}
             tecnologies={projects.biodigestion.tecnologies}
-        />
-
-        <ProjectComponent
-            projectName={projects.bestore.name}
-            images={projects.bestore.images}
-            link={projects.bestore.link}
-            projectDescription={projects.bestore.description}
-            tecnologies={projects.bestore.tecnologies}
         />
 
         <ProjectComponent

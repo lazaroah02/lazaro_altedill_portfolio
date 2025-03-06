@@ -14,7 +14,7 @@ function ContactButtons() {
                 <img alt = "github icon" src = {GitubIcon.src} width={24} height={24}/>
                 <p translate='no'>Github</p>
             </a>
-            <a className = "contact-button" href = "https://www.linkedin.com/in/lazaro-altedill-546453231" target = "_blank" rel="noopener noreferrer">
+            <a className = "contact-button" href = "https://www.linkedin.com/in/lazaro-altedill" target = "_blank" rel="noopener noreferrer">
                 <img alt = "linkedin-icon" src = {LinkedinIcon.src} width={24} height={24}/>
                 <p translate='no'>Linkedin</p>
             </a>

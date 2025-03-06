@@ -1,7 +1,7 @@
 {
     "aboutMe": {
         "title": "Hi 👋, Welcome to my portfolio",
-        "content": "If you can imagine it, you can program it. That phrase changed my life. I'm web full stack developer, who studied computing engineering.  Love building products, passionate about challenges, interested in growth. We have the responsability to build the future with our code."
+        "content": "If you can imagine it, you can program it. That phrase changed my life. Over 2 years of experience as a Full Stack React/Django Software Developer. My specialty is building web applications, but I have built all types of software: scraping, mobile applications, desktop applications, games, because I love building software products. We have the responsibility to build the future with our code."
     },
     "education": {
         "title": "Education",
@@ -116,24 +116,6 @@
                 {"name":"GitHub", "img":"tecnologies_images/github.svg"}
             ]
         },
-        "greennotes": {
-            "name": "Green Notes",
-            "description": "Green Notes was the final work of web programming in my second year of Computer Engineering. I worked as a full stack and team lead. It was my first time working in a team, so I learned how to collaborate to build a product.",
-            "link": "https://green-notes-app.onrender.com/",
-            "images": [
-                "projects/green_notes/img1.webp",
-                "projects/green_notes/img3.webp",
-                "projects/green_notes/img4.webp"
-            ],
-            "tecnologies": [
-                {"name":"Vue js", "img":"tecnologies_images/vue.svg"},
-                {"name":"Django", "img":"tecnologies_images/django.svg"},
-                {"name":"GraphQl", "img":"tecnologies_images/graphql.svg"},
-                {"name":"Git", "img":"tecnologies_images/git.svg"},
-                {"name":"GitHub", "img":"tecnologies_images/github.svg"},
-                {"name":"Docker", "img":"tecnologies_images/docker.svg"}
-            ]
-        },
         "english_vocabulary_manager":{
             "name": "English Vocabulary Manager",
             "description": "I build this app to facilitate the managment of english vocabulary. It has a section to manage the vocabulary and other to practice it. It was my first experience on mobile development.",
@@ -146,23 +128,6 @@
                 {"name": "React Native", "img":"tecnologies_images/react.svg"},
                 {"name": "Git", "img":"tecnologies_images/git.svg"},
                 {"name": "GitHub", "img":"tecnologies_images/github.svg"}
-            ]
-        },
-        "bestore": {
-            "name": "BeStore",
-            "description": "Brave decision of making an E-Commerce by my own. I learned a lot about how important is testing, good arquitecture, good practices and organization to mantain big products of softwares.",
-            "link": "",
-            "images": [
-                "projects/bestore/img1.webp",
-                "projects/bestore/img2.webp",
-                "projects/bestore/img3.webp"
-            ],
-            "tecnologies": [
-                {"name":"React js", "img":"tecnologies_images/react.svg"},
-                {"name":"Django", "img":"tecnologies_images/django.svg"},
-                {"name":"Git", "img":"tecnologies_images/git.svg"},
-                {"name":"GitHub", "img":"tecnologies_images/github.svg"},
-                {"name":"Docker", "img":"tecnologies_images/docker.svg"}
             ]
         },
         "bm_company_shop": {
