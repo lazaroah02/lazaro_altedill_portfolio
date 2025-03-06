@@ -14,6 +14,24 @@ function Projects({ id }) {
       <Collapsable height={'500px'}>
 
         <ProjectComponent
+            role = {projects.esther_online_catalog.role}
+            projectName={projects.esther_online_catalog.name}
+            images={projects.esther_online_catalog.images}
+            link={projects.esther_online_catalog.link}
+            projectDescription={projects.esther_online_catalog.description}
+            tecnologies={projects.esther_online_catalog.tecnologies}
+        />
+        <ProjectComponent
+            role = {projects.google_maps_scrape.role}
+            projectName={projects.google_maps_scrape.name}
+            images={projects.google_maps_scrape.images}
+            link={projects.google_maps_scrape.link}
+            projectDescription={projects.google_maps_scrape.description}
+            tecnologies={projects.google_maps_scrape.tecnologies}
+        />
+        
+        <ProjectComponent
+            role = {projects.rredduct.role}
             projectName={projects.rredduct.name}
             images={projects.rredduct.images}
             link={projects.rredduct.link}
@@ -22,6 +40,7 @@ function Projects({ id }) {
         />
 
         <ProjectComponent
+            role = {projects.english_vocabulary_manager.role}
             projectName={projects.english_vocabulary_manager.name}
             images={projects.english_vocabulary_manager.images}
             link={projects.english_vocabulary_manager.link}
@@ -30,6 +49,7 @@ function Projects({ id }) {
         />
 
         <ProjectComponent
+            role = {projects.neonato.role}
             projectName={projects.neonato.name}
             images={projects.neonato.images}
             link={projects.neonato.link}
@@ -38,6 +58,7 @@ function Projects({ id }) {
         />
 
         <ProjectComponent
+            role = {projects.biodigestion.role}
             projectName={projects.biodigestion.name}
             images={projects.biodigestion.images}
             link={projects.biodigestion.link}
@@ -46,6 +67,7 @@ function Projects({ id }) {
         />
 
         <ProjectComponent
+            role = {projects.bm_company_shop.role}
             projectName={projects.bm_company_shop.name}
             images={projects.bm_company_shop.images}
             link={projects.bm_company_shop.link}
@@ -54,6 +76,16 @@ function Projects({ id }) {
         />
 
         <ProjectComponent
+            role = {projects.sigipo.role}
+            projectName={projects.sigipo.name}
+            images={projects.sigipo.images}
+            link={projects.sigipo.link}
+            projectDescription={projects.sigipo.description}
+            tecnologies={projects.sigipo.tecnologies}
+        />
+
+        <ProjectComponent
+            role = {projects.krolNails.role}
             projectName={projects.krolNails.name}
             images={projects.krolNails.images}
             link={projects.krolNails.link}

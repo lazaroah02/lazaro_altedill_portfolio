@@ -1,22 +1,22 @@
 {
     "aboutMe": {
         "title": "Hi 👋, Welcome to my portfolio",
-        "content": "If you can imagine it, you can program it. That phrase changed my life. Over 2 years of experience as a Full Stack React/Django Software Developer. My specialty is building web applications, but I have built all types of software: scraping, mobile applications, desktop applications, games, because I love building software products. We have the responsibility to build the future with our code."
+        "content": "Over 2 years of experience as a Full Stack React/Django Software Developer. My specialty is building web applications, but I have built all types of software: scraping, mobile applications, desktop applications, games, because I love building software products. We have the responsibility to build the future with our code."
     },
     "education": {
         "title": "Education",
         "content": {
             "education1": {
-                "title": "Computing Engineering",
+                "title": "Computer Engineering",
                 "content": "Holguin University, Cuba (2021- 2024)"
             },
             "education2": {
-                "title": "Autodidact",
-                "content": "Most of my programming skills I have learned by my own."
+                "title": "Self-taught",
+                "content": "Most of my programming skills I have learned on my own."
             },
             "education3": {
                 "title": "Platzi",
-                "content": "I constantly take some courses on Platzi to increase my skills"
+                "content": "I constantly take courses on Platzi to enhance my skills."
             }
         }
     },
@@ -99,9 +99,98 @@
         "certificates/certificado-fundamentos-ing-software.webp"
     ],
     "projects": {
+        "esther_online_catalog": {
+            "name": "Esther Online Catalog",
+            "role": "Full Stack Developer, (Astro, React/Django)",
+            "description": "Developed an online catalog/store for selling items from a local business, increasing their internet presence and boosting sales.",
+            "link": "https://esther-store.pages.dev/",
+            "images": [
+                "projects/esther-store/02.webp",
+                "projects/esther-store/01.webp",
+                "projects/esther-store/03.webp",
+                "projects/esther-store/04.webp"
+            ],
+            "tecnologies": [
+                {
+                    "name": "Astro",
+                    "img": "tecnologies_images/astro.svg"
+                },
+                {
+                    "name": "React js",
+                    "img": "tecnologies_images/react.svg"
+                },
+                {
+                    "name": "TypeScript",
+                    "img": "tecnologies_images/typescript.svg"
+                },
+                {
+                    "name": "Django",
+                    "img": "tecnologies_images/django.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
+            ]
+        },
+        "google_maps_scrape": {
+            "name": "Google Maps Scrape",
+            "role": "Python Developer, Selenium",
+            "description": "Developed an application using Python, Selenium, and Requests to scrape Google Maps and automate information extraction, with the aim of obtaining potential clients for a business, thus increasing sales.",
+            "link": "",
+            "images": [
+                "projects/google-maps-scrape/01.webp"
+            ],
+            "tecnologies": [
+                {
+                    "name": "Python",
+                    "img": "tecnologies_images/python.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
+            ]
+        },
+        "sigipo": {
+            "name": "Sigipo",
+            "role": "FullStack Django Developer ",
+            "description": "Participated in the development of the pathological anatomy module where all information of patients diagnosed in the areas of thyroid, esophagus, breast, and Hodgkin's Lymphoma is managed; creating models, views, and interface for biopsy, diagnosis, and death forms. Helps streamline patient admission and treatment, facilitating patient information management.",
+            "link": "",
+            "images": [
+                "projects/sigipo/01.webp"
+            ],
+            "tecnologies": [
+                {
+                    "name": "Django",
+                    "img": "tecnologies_images/django.svg"
+                },
+                {
+                    "name": "Docker",
+                    "img": "tecnologies_images/docker.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
+            ]
+        },
         "rredduct": {
             "name": "Rred Duct",
-            "description": "Freelance project for a company that sells rubber and metal products. A catalog to display different pieces that the company manufactures, contact info and more. It was a challenge since the client was Turkish and his English was not very well.",
+            "role": "Web Developer, Astro",
+            "description": "Developed a web page for a Turkey company to display their catalog of products, contact info and more. It helps to increase their presence on the internet and attract clients.",
             "link": "https://rred-duct-project.onrender.com/",
             "images": [
                 "projects/rred-duct/05.webp",
@@ -111,28 +200,47 @@
                 "projects/rred-duct/04.webp"
             ],
             "tecnologies": [
-                {"name":"Astro", "img":"tecnologies_images/astro.svg"},
-                {"name":"Git", "img":"tecnologies_images/git.svg"},
-                {"name":"GitHub", "img":"tecnologies_images/github.svg"}
+                {
+                    "name": "Astro",
+                    "img": "tecnologies_images/astro.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
             ]
         },
-        "english_vocabulary_manager":{
+        "english_vocabulary_manager": {
             "name": "English Vocabulary Manager",
-            "description": "I build this app to facilitate the managment of english vocabulary. It has a section to manage the vocabulary and other to practice it. It was my first experience on mobile development.",
+            "role": "Android Developer, React Native",
+            "description": "I built an app to help people learning English to store the vocabulary learned and practice it. It helped me a lot in my English learning process.",
             "link": "",
             "images": [
                 "projects/english-vocabulary-manager/01.webp"
-                
             ],
             "tecnologies": [
-                {"name": "React Native", "img":"tecnologies_images/react.svg"},
-                {"name": "Git", "img":"tecnologies_images/git.svg"},
-                {"name": "GitHub", "img":"tecnologies_images/github.svg"}
+                {
+                    "name": "React Native",
+                    "img": "tecnologies_images/react.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
             ]
         },
         "bm_company_shop": {
             "name": "B&M Company Shop",
-            "description": "I used all the experienced that I acquired building Bestore, working as full stack, developing an E-commerce for the company B&M. It was my first experience working on a professional team and I learned a lot.",
+            "role": "Full Stack Developer React/Django",
+            "description": "Worked on the construction of an e-commerce platform for a local store. Developed the product catalog and product administration panel. My work helped facilitate the management of site information, with reports, graphics, and statistics, improving the UX of the product catalog.",
             "link": "",
             "images": [
                 "projects/bm-store/01.webp",
@@ -141,16 +249,32 @@
                 "projects/bm-store/04.webp"
             ],
             "tecnologies": [
-                {"name":"React js", "img":"tecnologies_images/react.svg"},
-                {"name":"Django", "img":"tecnologies_images/django.svg"},
-                {"name":"Git", "img":"tecnologies_images/git.svg"},
-                {"name":"GitHub", "img":"tecnologies_images/github.svg"},
-                {"name":"Docker", "img":"tecnologies_images/docker.svg"}
+                {
+                    "name": "React js",
+                    "img": "tecnologies_images/react.svg"
+                },
+                {
+                    "name": "Django",
+                    "img": "tecnologies_images/django.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                },
+                {
+                    "name": "Docker",
+                    "img": "tecnologies_images/docker.svg"
+                }
             ]
         },
         "krolNails": {
             "name": "Krol Nails",
-            "description": "Freelance project for a beauty salon. A catalog to show works, offers, contact and more. It was my first freelance project, so I learned how to negotiate with clients and give value to them.",
+            "role": "Web Developer, Vue",
+            "description": "Freelance project for a beauty salon where I developed a catalog to showcase the business's work, reaching more clients and increasing reservations.",
             "link": "https://krol-nails.onrender.com/",
             "images": [
                 "projects/krol_nails/img1.webp",
@@ -159,14 +283,24 @@
                 "projects/krol_nails/img4.webp"
             ],
             "tecnologies": [
-                {"name":"Vue js", "img":"tecnologies_images/vue.svg"},
-                {"name":"Git", "img":"tecnologies_images/git.svg"},
-                {"name":"GitHub", "img":"tecnologies_images/github.svg"}
+                {
+                    "name": "Vue js",
+                    "img": "tecnologies_images/vue.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
             ]
         },
         "neonato": {
             "name": "Observatorio Central de Cirugía Neonatal (OCCN)",
-            "description": "System to manage all newborns information for the Pediatric Hospital of Holguin, Cuba. This project was carried on by GPDB, an investigation group of the university that I studied, that collaborate with hospitals to build products related with medicine, and I participated as a full stack developer. Was a great experience to see how software can impact in the life of so many people.",
+            "role": "Backend Developer, Django",
+            "description": "Collaboration between Holguin University, Oscar Lucer Moya, and the Pediatric Hospital of Holguin, Cuba to develop a system to manage all newborns' information. I developed the authentication system and the APIs to save the information of the newborns. It was a great experience to see how software can impact the lives of so many people.",
             "link": "",
             "images": [
                 "projects/neonato/01.webp",
@@ -174,15 +308,28 @@
                 "projects/neonato/03.webp"
             ],
             "tecnologies": [
-                {"name":"React js", "img":"tecnologies_images/react.svg"},
-                {"name":"Django", "img":"tecnologies_images/django.svg"},
-                {"name":"Git", "img":"tecnologies_images/git.svg"},
-                {"name":"GitHub", "img":"tecnologies_images/github.svg"}
+                {
+                    "name": "React js",
+                    "img": "tecnologies_images/react.svg"
+                },
+                {
+                    "name": "Django",
+                    "img": "tecnologies_images/django.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
             ]
         },
         "biodigestion": {
             "name": "Bio Digestion",
-            "description": "System for the managment of the biogas production process from mixture vinaza-cachaza. I participated as a full stack developer. It was an enriching experience due to I learned a lot about how the production of biogas works.",
+            "role": "Full Stack Developer React/Django",
+            "description": "I developed a system for the management of the biogas production process from a vinasse-cachaza mixture, a collaboration between the University of Holguin, Oscar Lucero Moya, and the Biogas Production Company in Holguin. The system calculates the efficiency of production with the given indicators, helping to quantify the success of the process.",
             "link": "",
             "images": [
                 "projects/biodigestion/01.webp",
@@ -191,10 +338,22 @@
                 "projects/biodigestion/04.webp"
             ],
             "tecnologies": [
-                {"name":"React js", "img":"tecnologies_images/react.svg"},
-                {"name":"Django", "img":"tecnologies_images/django.svg"},
-                {"name":"Git", "img":"tecnologies_images/git.svg"},
-                {"name":"GitHub", "img":"tecnologies_images/github.svg"}
+                {
+                    "name": "React js",
+                    "img": "tecnologies_images/react.svg"
+                },
+                {
+                    "name": "Django",
+                    "img": "tecnologies_images/django.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
             ]
         }
     }

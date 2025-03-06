@@ -3,6 +3,7 @@ import "./index.css";
 
 function ProjectComponent({
   projectName,
+  role,
   images,
   projectDescription,
   link,
@@ -16,6 +17,7 @@ function ProjectComponent({
       <main className="project-description">
         <section className="project-description-text">
           <header translate="no">{projectName}</header>
+          <span className = "role">{role}</span>
           {projectDescription}
           <div className="tecnologies-container">
             {tecnologies.map((tec) => (
