@@ -163,7 +163,7 @@
         "sigipo": {
             "name": "Sigipo",
             "role": "FullStack Django Developer ",
-            "description": "Comprehensive Information System for oncological patient management developed as part of a collaboration between the University of Holguín, Oscar Lucero, and Vladimir Ilich Lenin Central Hospital.Participated in the development of the pathological anatomy module where all information of patients diagnosed in the areas of thyroid, esophagus, breast, and Hodgkin's Lymphoma is managed; creating models, views, and interface for biopsy, diagnosis, and death forms. Helps streamline patient admission and treatment, facilitating patient information management.",
+            "description": "Comprehensive Information System for oncological patient management developed as part of a collaboration between the University of Holguín, Oscar Lucero, and Vladimir Ilich Lenin Central Hospital. Participated in the development of the pathological anatomy module where all information of patients diagnosed in the areas of thyroid, esophagus, breast, and Hodgkin's Lymphoma is managed; creating models, views, and interface for biopsy, diagnosis, and death forms. Helps streamline patient admission and treatment, facilitating patient information management.",
             "link": "",
             "images": [
                 "projects/sigipo/01.webp"
