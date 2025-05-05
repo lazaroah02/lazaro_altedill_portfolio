@@ -1,7 +1,7 @@
 {
     "aboutMe": {
         "title": "Hi 👋, Welcome to my portfolio",
-        "content": "Over 2 years of experience as a Full Stack React/Django Software Developer. My specialty is building web applications, but I have built all types of software: scraping, mobile applications, desktop applications, games, because I love building software products. We have the responsibility to build the future with our code."
+        "content": "End-to-End Developer with over 3 years of experience. My specialty is building full-stack web applications with React and Django, but I have built all kinds of software: AI Agents, workflows with n8n, scraping tools, mobile apps, desktop applications, and games because I love creating software products. We have the responsibility to build the future with our code."
     },
     "education": {
         "title": "Education",
@@ -90,6 +90,11 @@
             "id": 14,
             "name": "Scrapping",
             "url": "skills/scrapping.webp"
+        },
+        {
+            "id": 16,
+            "name": "n8n Agentic Systems",
+            "url": "skills/n8n.webp"
         }
     ],
     "certificates": [
@@ -99,6 +104,51 @@
         "certificates/certificado-fundamentos-ing-software.webp"
     ],
     "projects": {
+        "printai_technical_interview": {
+            "name": "Print AI Technical Interview",
+            "role": "End-to-End Developer",
+            "description": "I developed an Agentic System in n8n as part of a technical test. The AI Agent had memory and two tools that it used to answer user questions. The tools were two API endpoints built with FastAPI, which provided data by scraping two websites to fetch books (stored in Redis) and real-time news from Hacker News. I created a custom chatbot frontend to interact with the agent. Everything was built from scratch and prepared for production using Docker containers, as the role required end-to-end development.",
+            "link": "",
+            "images": [
+                "projects/printai-interview/01.webp",
+                "projects/printai-interview/02.webp",
+                "projects/printai-interview/03.webp"
+            ],
+            "tecnologies": [
+                {
+                    "name": "React js",
+                    "img": "tecnologies_images/react.svg"
+                },
+                {
+                    "name": "Python",
+                    "img": "tecnologies_images/python.svg"
+                },
+                {
+                    "name": "FastAPI",
+                    "img": "tecnologies_images/FastAPI.svg"
+                },
+                {
+                    "name": "Redis",
+                    "img": "tecnologies_images/redis.svg"
+                },
+                {
+                    "name": "n8n",
+                    "img": "tecnologies_images/n8n.svg"
+                },
+                {
+                    "name": "Docker",
+                    "img": "tecnologies_images/docker.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
+            ]
+        },
         "esther_online_catalog": {
             "name": "Esther Online Catalog",
             "role": "Full Stack Developer, (Astro, React/Django)",

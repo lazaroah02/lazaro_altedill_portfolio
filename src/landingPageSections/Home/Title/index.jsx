@@ -6,7 +6,7 @@ export function Title() {
       <h1 className="homepage-title">
         I am <span>Lazaro Altedill</span>
       </h1>
-      <h3 className="homepage-subtitle">Full Stack Developer</h3>
+      <h3 className="homepage-subtitle">End-to-End Developer</h3>
       <nav className = "homepage-buttons-container">
         <a href = "#projects">My Work</a>
         <a href = "#footer">Contanct Me</a>

@@ -14,6 +14,14 @@ function Projects({ id }) {
       <Collapsable height={'500px'}>
 
         <ProjectComponent
+            role = {projects.printai_technical_interview.role}
+            projectName={projects.printai_technical_interview.name}
+            images={projects.printai_technical_interview.images}
+            link={projects.printai_technical_interview.link}
+            projectDescription={projects.printai_technical_interview.description}
+            tecnologies={projects.printai_technical_interview.tecnologies}
+        />
+        <ProjectComponent
             role = {projects.esther_online_catalog.role}
             projectName={projects.esther_online_catalog.name}
             images={projects.esther_online_catalog.images}
