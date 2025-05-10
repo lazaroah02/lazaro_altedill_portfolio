@@ -110,8 +110,8 @@
             "description": "I developed an Agentic System in n8n as part of a technical test. The AI Agent had memory and two tools that it used to answer user questions. The tools were two API endpoints built with FastAPI, which provided data by scraping two websites to fetch books (stored in Redis) and real-time news from Hacker News. I created a custom chatbot frontend to interact with the agent. Everything was built from scratch and prepared for production using Docker containers, as the role required end-to-end development.",
             "link": "",
             "images": [
-                "projects/printai-interview/02.webp",
                 "projects/printai-interview/01.webp",
+                "projects/printai-interview/02.webp",
                 "projects/printai-interview/03.webp"
             ],
             "tecnologies": [
