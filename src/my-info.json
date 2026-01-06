@@ -1,7 +1,7 @@
 {
     "aboutMe": {
         "title": "Hi 👋, Welcome to my portfolio",
-        "content": "I specialize in building full-stack web applications with React and Django, but I’ve worked across many types of software: AI agents, workflows with n8n, web scraping, Python scripts, mobile applications with React Native, and more. I love building software products, I’m passionate about technology, and I enjoy understanding how things work behind the scenes. \n\n I consider myself a problem solver, capable of adapting to any environment because I focus on fundamentals, which allows me to switch easily between technology stacks. At a fundamental level, a REST API is the same whether it’s built with Django, Express, Laravel, or any other technology. \n\n I believe the most important skill for a developer is not memorizing syntax, but knowing how to search for a solution and apply it. \n\nWe have the responsibility to build the future with our code. "
+        "content": "I'm specialized in building full-stack web applications with React and Django, but I’ve worked across many types of software: AI agents, workflows with n8n, web scraping, Python scripts, mobile applications with React Native, and more. Building software products and understanding technology are two of my bigest passions. \n\n Problem solver is what I am, capable of adapting to any environment because I focus on fundamentals, which allows me to switch easily between technology stacks. At a fundamental level, a REST API is the same whether it’s built with Django, Express, Laravel, or any other technology. \n\n One of my believes is that the most important skill for a developer is not memorizing syntax, but knowing how to search for a solution and apply it. \n\nWe have the responsibility to build the future with our code. "
     },
     "education": {
         "title": "Education",
@@ -16,7 +16,7 @@
             },
             "education3": {
                 "title": "Platzi",
-                "content": "I constantly take courses on Platzi to enhance my skills."
+                "content": "Constantly taking courses on Platzi to enhance my skills."
             }
         }
     },
@@ -107,7 +107,7 @@
         "church_calendar": {
             "name": "The Resurrection Calendar",
             "role": "Full Stack(React Native-Expo/Django) Developer/Engineer",
-            "description": "I developed a calendar to manage a church’s events as well as its 500 active members. Through this project, I gained in-depth experience in developing professional mobile apps, including notifications, version management, distribution, and support, while taking into account the limitations present in Cuba. ",
+            "description": "Developed a calendar to manage a church’s events as well as its 500 active members. Through this project, I gained in-depth experience in developing professional mobile apps, including notifications, version management, distribution, and support, while taking into account the limitations present in Cuba. ",
             "link": "https://laresurreccioncalendar.pythonanywhere.com/",
             "images": [
                 "projects/la-resurreccion-calendar/01.webp"
@@ -138,7 +138,7 @@
         "elitec": {
             "name": "Elitec Technology Store",
             "role": "Full Stack Developer, (React/Django)",
-            "description": "I participated in the development of an online store for selling technology products, serving as the main backend developer and collaborating on the frontend to speed up development. I strengthened my teamwork skills and collaboration using GitHub",
+            "description": "Participated in the development of an online store for selling technology products, serving as the main backend developer and collaborating on the frontend to speed up development. I strengthened my teamwork skills and collaboration using GitHub",
             "link": "https://elitec.store/",
             "images": [
                 "projects/elitec/01.webp",
@@ -205,7 +205,7 @@
         "printai_technical_interview": {
             "name": "Print AI Technical Interview",
             "role": "End-to-End Developer",
-            "description": "I developed an Agentic System in n8n as part of a technical test. The AI Agent had memory and two tools that it used to answer user questions. The tools were two API endpoints built with FastAPI, which provided data by scraping two websites to fetch books (stored in Redis) and real-time news from Hacker News. I created a custom chatbot frontend to interact with the agent. Everything was built from scratch and prepared for production using Docker containers, as the role required end-to-end development.",
+            "description": "Agentic System in n8n as part of a technical test. The AI Agent had memory and two tools that it used to answer user questions. The tools were two API endpoints built with FastAPI, which provided data by scraping two websites to fetch books (stored in Redis) and real-time news from Hacker News. I created a custom chatbot frontend to interact with the agent. Everything was built from scratch and prepared for production using Docker containers, as the role required end-to-end development.",
             "link": "",
             "images": [
                 "projects/printai-interview/01.webp",
@@ -250,7 +250,7 @@
         "esther_online_catalog": {
             "name": "Esther Online Catalog",
             "role": "Full Stack Developer, (Astro, React/Django)",
-            "description": "Developed an online catalog/store for selling items from a local business, increasing their internet presence and boosting sales.",
+            "description": "Online catalog/store for selling items from a local business, increasing their internet presence and boosting sales.",
             "link": "https://esther-store.pages.dev/",
             "images": [
                 "projects/esther-store/02.webp",
