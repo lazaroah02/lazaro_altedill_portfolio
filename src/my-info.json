@@ -1,7 +1,7 @@
 {
     "aboutMe": {
         "title": "Hi 👋, Welcome to my portfolio",
-        "content": "End-to-End Developer with over 3 years of experience. My specialty is building full-stack web applications with React and Django, but I have built all kinds of software: AI Agents, workflows with n8n, scraping tools, mobile apps, desktop applications, and games because I love creating software products. We have the responsibility to build the future with our code."
+        "content": "I specialize in building full-stack web applications with React and Django, but I’ve worked across many types of software: AI agents, workflows with n8n, web scraping, Python scripts, mobile applications with React Native, and more. I love building software products, I’m passionate about technology, and I enjoy understanding how things work behind the scenes. \n\n I consider myself a problem solver, capable of adapting to any environment because I focus on fundamentals, which allows me to switch easily between technology stacks. At a fundamental level, a REST API is the same whether it’s built with Django, Express, Laravel, or any other technology. \n\n I believe the most important skill for a developer is not memorizing syntax, but knowing how to search for a solution and apply it. \n\nWe have the responsibility to build the future with our code. "
     },
     "education": {
         "title": "Education",
@@ -11,7 +11,7 @@
                 "content": "Holguin University, Cuba (2021- 2024)"
             },
             "education2": {
-                "title": "Self-taught",
+                "title": "Self - Taught",
                 "content": "Most of my programming skills I have learned on my own."
             },
             "education3": {
@@ -104,6 +104,104 @@
         "certificates/certificado-fundamentos-ing-software.webp"
     ],
     "projects": {
+        "church_calendar": {
+            "name": "The Resurrection Calendar",
+            "role": "Full Stack(React Native-Expo/Django) Developer/Engineer",
+            "description": "I developed a calendar to manage a church’s events as well as its 500 active members. Through this project, I gained in-depth experience in developing professional mobile apps, including notifications, version management, distribution, and support, while taking into account the limitations present in Cuba. ",
+            "link": "https://laresurreccioncalendar.pythonanywhere.com/",
+            "images": [
+                "projects/la-resurreccion-calendar/01.webp"
+            ],
+            "tecnologies": [
+                {
+                    "name": "React Native",
+                    "img": "tecnologies_images/react.svg"
+                },
+                {
+                    "name": "TypeScript",
+                    "img": "tecnologies_images/typescript.svg"
+                },
+                {
+                    "name": "Django",
+                    "img": "tecnologies_images/django.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
+            ]
+        },
+        "elitec": {
+            "name": "Elitec Technology Store",
+            "role": "Full Stack Developer, (React/Django)",
+            "description": "I participated in the development of an online store for selling technology products, serving as the main backend developer and collaborating on the frontend to speed up development. I strengthened my teamwork skills and collaboration using GitHub",
+            "link": "https://elitec.store/",
+            "images": [
+                "projects/elitec/01.webp",
+                "projects/elitec/02.webp",
+                "projects/elitec/03.webp",
+                "projects/elitec/04.webp"
+            ],
+            "tecnologies": [
+                {
+                    "name": "React js",
+                    "img": "tecnologies_images/react.svg"
+                },
+                {
+                    "name": "TypeScript",
+                    "img": "tecnologies_images/typescript.svg"
+                },
+                {
+                    "name": "Django",
+                    "img": "tecnologies_images/django.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
+            ]
+        },
+        "la_the_builder": {
+            "name": "LA The Builder",
+            "role": "Web Developer, Astro",
+            "description": "Developed an online catalog/landing page for a construction company in LA. Integrated social networks feeds like Facebook, Instagram and TikTok to showcase their work. This project helped the company to increase their presence on the internet and attract more clients.",
+            "link": "https://la-thebuilder.com/",
+            "images": [
+                "projects/la-the-builder/01.webp",
+                "projects/la-the-builder/02.webp",
+                "projects/la-the-builder/03.webp"
+            ],
+            "tecnologies": [
+                {
+                    "name": "Astro",
+                    "img": "tecnologies_images/astro.svg"
+                },
+                {
+                    "name": "React js",
+                    "img": "tecnologies_images/react.svg"
+                },
+                {
+                    "name": "TypeScript",
+                    "img": "tecnologies_images/typescript.svg"
+                },
+                {
+                    "name": "Git",
+                    "img": "tecnologies_images/git.svg"
+                },
+                {
+                    "name": "GitHub",
+                    "img": "tecnologies_images/github.svg"
+                }
+            ]
+        },
         "printai_technical_interview": {
             "name": "Print AI Technical Interview",
             "role": "End-to-End Developer",

@@ -12,7 +12,7 @@ function Projects({ id }) {
       <SectionNameLabel>Projects</SectionNameLabel>
 
       <Collapsable height={'500px'}>
-
+      
         <ProjectComponent
             role = {projects.printai_technical_interview.role}
             projectName={projects.printai_technical_interview.name}
@@ -21,6 +21,34 @@ function Projects({ id }) {
             projectDescription={projects.printai_technical_interview.description}
             tecnologies={projects.printai_technical_interview.tecnologies}
         />
+
+        <ProjectComponent
+            role = {projects.church_calendar.role}
+            projectName={projects.church_calendar.name}
+            images={projects.church_calendar.images}
+            link={projects.church_calendar.link}
+            projectDescription={projects.church_calendar.description}
+            tecnologies={projects.church_calendar.tecnologies}
+        />
+
+        <ProjectComponent
+            role = {projects.elitec.role}
+            projectName={projects.elitec.name}
+            images={projects.elitec.images}
+            link={projects.elitec.link}
+            projectDescription={projects.elitec.description}
+            tecnologies={projects.elitec.tecnologies}
+        />
+
+        <ProjectComponent
+            role = {projects.la_the_builder.role}
+            projectName={projects.la_the_builder.name}
+            images={projects.la_the_builder.images}
+            link={projects.la_the_builder.link}
+            projectDescription={projects.la_the_builder.description}
+            tecnologies={projects.la_the_builder.tecnologies}
+        />
+
         <ProjectComponent
             role = {projects.esther_online_catalog.role}
             projectName={projects.esther_online_catalog.name}
@@ -29,6 +57,7 @@ function Projects({ id }) {
             projectDescription={projects.esther_online_catalog.description}
             tecnologies={projects.esther_online_catalog.tecnologies}
         />
+
         <ProjectComponent
             role = {projects.google_maps_scrape.role}
             projectName={projects.google_maps_scrape.name}
